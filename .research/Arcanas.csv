@@ -1,0 +1,35 @@
+Name,Roman Numeral,Type,Effect,Unlock Method
+Game Killer,0,Arcana,"All treasure chests always contain at least 3 rewards. Arcana Chests contain 2 additional chest rewards.",Type code "aintnobodygottimeforthat" on main menu
+Gemini,I,Arcana,"Spawns a clone that mirrors your movement and attacks.",Reach level 50 with any character
+Twilight Requiem,II,Arcana,"Killed enemies explode dealing area damage.",Reach level 50 with any character
+Tragic Princess,III,Arcana,"Attacks may poison enemies.",Reach level 50 with any character
+Awake,IV,Arcana,"Increases damage based on current health.",Reach level 50 with any character
+Chaos in the Dark Night,V,Arcana,"Increases damage for each enemy on screen (caps at +300%).",Reach level 50 with any character
+Sarabande of Healing,VI,Arcana,"Small HP regeneration per second.",Obtain Randomazzo in Gallo Tower
+Iron Blue Will,VII,Arcana,"Immunity to freeze and curse.",Reach level 50 with any character
+Mad Groove,VIII,Arcana,"All items on the ground are attracted to you.",Reach minute 31 in any stage (or type code)
+Divine Bloodline,IX,Arcana,"Chest spawns doubled, better drops.",Reach level 50 with any character
+Beginning,X,Arcana,"Level up effect doubled.",Reach level 50 with any character
+Waltz of Pearls,XI,Arcana,"Increases gold pickup radius and magnet effect.",Reach level 50 with any character
+Out of Bounds,XII,Arcana,"Enemy spawn rate increased, more XP gems.",Reach minute 31 in any stage (or type code)
+Wicked Season,XIII,Arcana,"Damage increases as time passes.",Reach level 50 with any character
+Jail of Crystal,XIV,Arcana,"Chance to freeze enemies on hit.",Reach level 50 with any character
+Disco of Gold,XV,Arcana,"Enemies drop more gold.",Reach minute 31 in any stage (or type code)
+Slash,XVI,Arcana,"Chance for critical hit based on speed.",Reach level 50 with any character
+Lost and Found Painting,XVII,Arcana,"Revive once per run with 50% HP.",Reach level 50 with any character
+Boogaloo of Illusions,XVIII,Arcana,"Projectiles may split and bounce.",Reach level 50 with any character
+Heart of Fire,XIX,Arcana,"Fire damage over time to nearby enemies.",Reach level 50 with any character
+Silent Old Sanctuary,XX,Arcana,"Weapons gain bonus effects at max level.",Reach minute 31 in any stage (or type code)
+Blood Astronomia,XXI,Arcana,"Killing enemies may reduce cooldowns.",Reach level 50 with any character
+Stake to your Heart,0,Darkana,"Same as Game Killer (0) but stronger effect.","Obtain Darkasso + code ""darkassami"""
+Sapphire Mist,I,Darkana,"Same as Gemini (I) but clone attacks too.","Obtain Darkasso + level 50 with character"
+Hidden Anathema,III,Darkana,"Same as Tragic Princess (III) but poison spreads.","Obtain Darkasso + level 50 with character"
+Pale Diamond Incursion,V,Darkana,"Same as Chaos in the Dark Night (V) but better scaling.","Obtain Darkasso + level 50 with character"
+Moonlight Bolero,VI,Darkana,"Same as Sarabande of Healing (VI) but stronger.","Obtain Darkasso + code ""darkassami"""
+Edge of the Earth,VIII,Darkana,"Same as Mad Groove (VIII) but items move faster.","Obtain Darkasso + level 50 with character"
+Hail from the Future,X,Darkana,"Same as Beginning (X) but also extra XP.","Obtain Darkasso + level 50 with character"
+Crystal Cries,XII,Darkana,"Same as Out of Bounds (XII) but also more luck.","Obtain Darkasso + level 50 with character"
+Call of a Mad Moon,XIII,Darkana,"Same as Wicked Season (XIII) but starts stronger.","Obtain Darkasso + level 50 with character"
+Victorian Horror,XVIII,Darkana,"Same as Boogaloo of Illusions (XVIII) but more bounces.","Obtain Darkasso + level 50 with character"
+Heir of Fate,XIX,Darkana,"Same as Heart of Fire (XIX) but also damage shield.","Obtain Darkasso + level 50 with character"
+Wandering the Jet Black,XXI,Darkana,"Same as Blood Astronomia (XXI) but better proc rate.","Obtain Darkasso + level 50 with character"

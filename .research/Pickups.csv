@@ -1,0 +1,25 @@
+Name,Rarity,Unlock Level,Effect,Notes
+Gold,100,1,Currency,Basic gold drops
+Big Gold,200,1,+100 gold,Rare gold drop
+Rich Gold,500,1,+500 gold,Very rare gold drop
+Floor Chicken,20,1,+1 HP,Heals, grants brief invulnerability
+Mighty Mango,20,1,+10 HP,Medium health pickup
+Whimberry,15,1,+20 HP,Good health pickup
+Strawing,5,1,+50 HP,Rare large health pickup
+Roast Chicken,10,5,+30 HP + brief invulnerability,Chainable for extended invulnerability
+Coffee,20,3,+10% Move Speed for 10s,Speed boost
+Bitter Coffee,15,7,+15% Move Speed for 15s,Longer speed boost
+Duplicator,10,5,+1 projectile to all weapons,Permanent for the run
+Bberra,15,6,+20% Area for 10s,Area boost
+Bracelet,15,6,+20% projectile speed for 10s,Projectile speed boost
+Nduja,20,3,+10% damage for 10s,Damage boost
+Rosary,15,5,+15% damage permanently,One of the best pickups
+Armor,10,8,+1 armor permanently,Damage reduction
+P那块,5,12,+2 armor permanently,High armor pickup
+Orologion,15,8,-15% cooldown for 10s,Cooldown reduction
+Briser,10,15,-20% cooldown for 20s,Long cooldown reduction
+Pocket Watch,15,10,+5% duration for 10s,Duration boost
+Lucky Clover,10,10,+5 luck permanently,One-time luck boost
+Crown of Dust,10,10,+10% damage permanently,Damage boost
+Bambino,5,15,Full HP heal,Expensive rare heal
+Sammys,2,1,Auto-pickup XP gems,Can be chained for minutes of invulnerability

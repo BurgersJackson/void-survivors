@@ -1,0 +1,169 @@
+Name,Bestiary #,HP,Power,Speed,XP,KB Res,Freeze Res,Knockback Res,Damage Res,Found In,Stage,Minute,Spawn Type,Notes,Variant
+Skeleton,006,15,10,100,2,Yes,-,-,-,Mad Forest / Dairy Plant / Gallo Tower / Bone Zone / Boss Rash / Eudaimonia,Mad Forest,3:00,Normal,-,-
+Zombie,005,30,5,50,2,-,-,-,-,Mad Forest,4:00,Normal,-,-
+Mudman,008,45,5,40,3,-,-,-,-,Mad Forest,3:00,Normal,-,-
+Flower Wall,010,5,1,0,1,-,-,-,-,Mad Forest,5:00,Normal,-,-
+Giant Bat,009,5,3,150,1,-,-,-,-,Mad Forest / Dairy Plant / Gallo Tower / Boss Rash / Eudaimonia,Mad Forest,2:00,Normal,-,-
+Werewolf,012,40,8,90,3,-,-,-,-,Mad Forest,5:00,Normal,-,-
+Ghost,011,10,5,200,1.5,Semi-res,-,-,-,Mad Forest / Inlaid Library / Gallo Tower / Moongolow / Whiteout / Astral Stair / Tiny Bridge / Eudaimonia,Mad Forest,4:00,Normal,-,Blue Ghost
+Mantichana,014,50,10,60,4,-,-,-,-,Mad Forest / Westwood,Mad Forest,6:00,Normal,-,-
+Big Mummy,015,120,15,30,6,-,-,-,-,Mad Forest,8:00,Normal,-,-
+Venus,016,80,20,30,5,-,-,-,-,Mad Forest,9:00,Normal,-,-
+Pipeestrello,001,3,2,200,1,-,-,-,-,Mad Forest / Dairy Plant / Boss Rash / Eudaimonia,Mad Forest,1:00,Normal,-,Boss (Arcana Boss)
+Dust Elemental,017,10,5,100,2,-,-,-,-,Inlaid Library,3:00,Normal,-,-
+Lionhead,018,25,8,70,3,-,-,-,-,Inlaid Library,4:00,Normal,-,-
+Sig.ra Rossi,019,35,12,80,3,-,-,-,-,Inlaid Library,5:00,Normal,-,-
+Hag,020,20,15,50,3,-,-,-,-,Inlaid Library,6:00,Normal,-,-
+Nesufritto,021,30,8,60,3,-,-,-,-,Inlaid Library,7:00,Normal,-,-
+Mummy,022,40,10,40,4,-,-,-,-,Inlaid Library,8:00,Normal,-,-
+Sneaky Head,023,15,6,120,2,-,-,-,-,Inlaid Library,5:00,Normal,-,-
+Harzia,024,60,20,50,5,-,-,-,-,Inlaid Library,9:00,Normal,-,-
+Musc Musc,025,25,12,80,3,-,-,-,-,Inlaid Library,8:00,Normal,-,-
+Testa di Mano,026,50,25,30,6,-,-,-,-,Inlaid Library,10:00,Normal,-,-
+Undead Witch,027,30,10,60,4,-,-,-,-,Inlaid Library,6:00,Normal,-,-
+Undead Sassy Witch,028,30,10,60,4,-,-,-,-,Inlaid Library,9:00,Normal,-,-
+Merdusa,029,80,15,50,5,-,-,-,-,Inlaid Library,10:00,Normal,-,-
+Skullone,030,150,20,40,8,-,-,-,-,Inlaid Library,11:00,Normal,-,-
+Milk Elemental,031,20,8,80,2,-,-,-,-,Dairy Plant,3:00,Normal,-,-
+Merman,032,60,12,60,4,-,-,-,-,Dairy Plant,4:00,Normal,-,-
+Lizard Pawn,033,30,10,80,3,-,-,-,-,Dairy Plant,5:00,Normal,-,-
+Twin Snakes,034,40,15,100,4,-,-,-,-,Dairy Plant,6:00,Normal,-,-
+Lizard Rook,035,80,20,50,5,-,-,-,-,Dairy Plant,7:00,Normal,-,-
+Twin Demons,036,100,25,70,6,-,-,-,-,Dairy Plant,8:00,Normal,-,-
+Jellyfish,037,25,5,60,2,-,-,-,-,Dairy Plant,5:00,Normal,-,-
+Skeleton Ninja,038,20,15,150,3,-,-,-,-,Dairy Plant,7:00,Normal,-,-
+Lost Twin,039,60,10,80,4,-,-,-,-,Dairy Plant,8:00,Normal,-,-
+Melone,040,50,20,70,5,-,-,-,-,Dairy Plant,9:00,Normal,-,-
+Minotaur,041,150,30,50,8,-,-,-,-,Dairy Plant,10:00,Normal,-,-
+Mignotaur,042,150,30,50,8,-,-,-,-,Dairy Plant,10:00,Normal,-,-
+Archon Lancia,043,40,12,90,4,-,-,-,-,Dairy Plant,8:00,Normal,-,-
+Archon Ascia,044,40,12,90,4,-,-,-,-,Dairy Plant,8:00,Normal,-,-
+Skelewing,045,60,15,70,4,-,-,-,-,Dairy Plant,9:00,Normal,-,-
+Tritont,046,80,18,60,5,-,-,-,-,Dairy Plant,10:00,Normal,-,-
+Manticore,047,200,35,40,10,-,-,-,-,Dairy Plant,11:00,Normal,-,-
+Gallotrice,048,180,30,50,8,-,-,-,-,Dairy Plant,11:00,Normal,-,-
+Big Golem,049,300,40,30,15,-,-,-,-,Dairy Plant,12:00,Normal,-,-
+Meat Golem,050,250,35,40,12,-,-,-,-,Dairy Plant,12:00,Normal,-,-
+Sword Guardian,051,200,45,35,10,-,-,-,-,Dairy Plant,12:00,Normal,-,-
+Bloodbath,052,30,10,100,4,-,-,-,-,Gallo Tower,3:00,Normal,-,-
+Skullino,053,25,8,80,3,-,-,-,-,Gallo Tower,4:00,Normal,-,-
+Skulorosso,054,35,12,90,4,-,-,-,-,Gallo Tower,5:00,Normal,-,-
+Scarleton,055,80,20,60,6,-,-,-,-,Gallo Tower,6:00,Normal,-,-
+Dragon Shrimp,056,60,25,80,5,-,-,-,-,Gallo Tower,7:00,Normal,-,-
+Poltergeist,057,15,8,150,3,-,-,-,-,Gallo Tower,6:00,Normal,-,-
+Impefinger,058,40,15,100,4,-,-,-,-,Gallo Tower,7:00,Normal,-,-
+Ghiavolo,059,50,20,70,5,-,-,-,-,Gallo Tower,8:00,Normal,-,-
+Undead Mage,060,30,10,60,3,-,-,-,-,Gallo Tower,7:00,Normal,-,-
+Archon Spada,061,60,18,80,5,-,-,-,-,Gallo Tower,8:00,Normal,-,-
+Archon Disco,062,60,18,80,5,-,-,-,-,Gallo Tower,8:00,Normal,-,-
+Giant Enemy Crab,063,200,30,40,10,-,-,-,-,Gallo Tower,10:00,Normal,-,-
+Sad Molisano,064,20,5,60,2,-,-,-,-,Il Molise,Any,Normal,-,-
+Happy Molisano,065,20,5,60,2,-,-,-,-,Il Molise,Any,Normal,-,-
+Cute Molisano,066,20,5,60,2,-,-,-,-,Il Molise,Any,Normal,-,-
+Old Molisano,067,20,5,60,2,-,-,-,-,Il Molise,Any,Normal,-,-
+Dead Molisano,068,20,5,60,2,-,-,-,-,Il Molise,Any,Normal,-,-
+Bambaman,069,40,10,80,4,-,-,-,-,Whiteout,3:00,Normal,-,-
+Miragellos,070,30,8,100,3,-,-,-,-,Whiteout,4:00,Normal,-,-
+Menta Elemental,071,20,8,90,3,-,-,-,-,Whiteout,5:00,Normal,-,-
+Madd-Onna,072,60,15,70,5,-,-,-,-,Whiteout,6:00,Normal,-,-
+Kizzune,073,50,20,120,5,-,-,-,-,Whiteout,7:00,Normal,-,-
+Holy Circuit Creations,074,100,20,70,6,-,-,-,-,Laboratory,3:00,Normal,-,-
+Bounty Hunter,075,80,25,90,6,-,-,-,-,Laboratory,4:00,Normal,-,-
+Space Hunter,076,120,30,80,8,-,-,-,-,Laboratory,5:00,Normal,-,-
+Tri-Blunder,077,150,35,60,10,-,-,-,-,Laboratory,6:00,Normal,-,-
+Skelegem,078,200,40,50,12,-,-,-,-,Westwood,3:00,Normal,-,-
+Much Much,079,30,10,100,3,-,-,-,-,Westwood,4:00,Normal,-,-
+Gold Pile,080,5,1,0,1,-,-,-,-,Westwood,Any,Pickup,-,Gold Drop
+Gold Jellys,081,5,1,0,1,-,-,-,-,Westwood,Any,Pickup,-,Gold Drop
+Mantichana Idol,082,50,10,60,4,-,-,-,-,Westwood,5:00,Normal,-,-
+Knight of Spades,083,80,20,70,5,-,-,-,-,Westwood,6:00,Normal,-,-
+Barm,084,40,15,60,4,-,-,-,-,Westwood,6:00,Normal,-,-
+Ghoulette,085,60,18,80,5,-,-,-,-,Westwood,7:00,Normal,-,-
+Goldie,086,5,1,0,1,-,-,-,-,Westwood,Any,Pickup,-,Gold Drop
+Dandybrine,087,100,25,60,6,-,-,-,-,Westwood,8:00,Normal,-,-
+Daimon,088,200,30,40,10,-,-,-,-,Westwood,9:00,Normal,-,-
+Gambergar,089,150,35,50,8,-,-,-,-,Westwood,10:00,Normal,-,-
+Gamblin,090,80,20,70,5,-,-,-,-,Westwood,7:00,Normal,-,-
+Jastor,091,120,25,60,7,-,-,-,-,Westwood,9:00,Normal,-,-
+Mushroulette,092,60,15,50,4,-,-,-,-,Westwood,8:00,Normal,-,-
+Toll,093,40,12,80,4,-,-,-,-,Westwood,7:00,Normal,-,-
+Valentine,094,100,25,70,6,-,-,-,-,Westwood,8:00,Normal,-,-
+Squillers,095,80,18,90,5,-,-,-,-,Westwood,9:00,Normal,-,-
+Card Sharp,096,150,30,60,8,-,-,-,-,Westwood,10:00,Normal,-,-
+Chickenfantry,097,10,3,80,1,-,-,-,-,The Coop,Any,Normal,-,-
+Cockreliutennant,098,30,8,60,2,-,-,-,-,The Coop,Any,Normal,-,-
+Chik,099,5,2,100,1,-,-,-,-,The Coop,Any,Normal,-,-
+Egge,100,8,3,90,1,-,-,-,-,The Coop,Any,Normal,-,-
+Pol.lo Rosso,101,15,5,70,2,-,-,-,-,The Coop,Any,Normal,-,-
+Abraxas,102,200,40,50,12,-,-,-,-,The Coop,Any,Normal,-,Boss
+Abraxas Phronesis,103,200,40,50,12,-,-,-,-,The Coop,Any,Normal,-,Boss
+Abraxas Dynamis,104,200,40,50,12,-,-,-,-,The Coop,Any,Normal,-,Boss
+Gala Invader,105,30,10,100,3,-,-,-,-,Space 54,3:00,Normal,-,-
+Moon Rabbit,106,20,8,120,2,-,-,-,-,Space 54,4:00,Normal,-,-
+Moon Duck,107,25,10,100,3,-,-,-,-,Space 54,5:00,Normal,-,-
+Space Ant Onion,108,40,15,80,4,-,-,-,-,Space 54,6:00,Normal,-,-
+Space Pickle,109,60,20,70,5,-,-,-,-,Space 54,7:00,Normal,-,-
+ECMASlime,110,35,12,90,4,-,-,-,-,Space 54,6:00,Normal,-,-
+Sinistronz,111,80,25,80,6,-,-,-,-,Space 54,8:00,Normal,-,-
+Twin Skulls,112,40,15,80,4,-,-,-,-,The Bone Zone,1:00,Normal,-,-
+Skeleton Panther,113,30,20,180,4,-,-,-,-,The Bone Zone,2:00,Normal,-,-
+Giant Skeleton,114,300,50,40,15,-,-,-,-,The Bone Zone,3:00,Normal,-,-
+Skeletone,115,500,60,30,25,-,-,-,-,The Bone Zone,5:00,Normal,-,-
+Sketamari,116,200,35,60,10,-,-,-,-,The Bone Zone,4:00,Normal,-,-
+Moongolow Atlanteans,117,50,15,70,4,-,-,-,-,Moongolow,3:00,Normal,-,-
+Serpentvine,118,80,20,50,5,-,-,-,-,Moongolow,4:00,Normal,-,-
+Garlic (enemy),119,60,10,40,4,-,-,-,-,Moongolow,5:00,Normal,-,-
+Nightshade,120,40,12,80,4,-,-,-,-,Moongolow,6:00,Normal,-,-
+Sig.ra Blu,121,100,25,60,6,-,-,-,-,Moongolow,7:00,Normal,-,-
+Non-Giant Enemy Crab,122,100,20,40,5,-,-,-,-,Moongolow,8:00,Normal,-,-
+Unknown,123,150,30,50,8,-,-,-,-,Cappella Magna,3:00,Normal,-,-
+Reaper Trainee,124,80,20,70,5,-,-,-,-,Cappella Magna,4:00,Normal,-,-
+Tetrabrachia,125,200,35,40,10,-,-,-,-,Cappella Magna,5:00,Normal,-,-
+Archon Fiamma,126,120,30,70,7,-,-,-,-,Cappella Magna,6:00,Normal,-,-
+Succubus (enemy),127,100,25,80,6,-,-,-,-,Cappella Magna,6:00,Normal,-,-
+Archon Rame,128,150,35,60,8,-,-,-,-,Cappella Magna,7:00,Normal,-,-
+Demon Priest,129,180,40,50,10,-,-,-,-,Cappella Magna,8:00,Normal,-,-
+Fallen Cherub,130,120,30,70,7,-,-,-,-,Cappella Magna,7:00,Normal,-,-
+Fallen Cherubbello,131,120,30,70,7,-,-,-,-,Cappella Magna,8:00,Normal,-,-
+Fallen Throne,132,250,45,40,12,-,-,-,-,Cappella Magna,9:00,Normal,-,-
+Archon Oro,133,200,40,50,10,-,-,-,-,Cappella Magna,9:00,Normal,-,-
+Demon Beast,134,300,50,60,15,-,-,-,-,Cappella Magna,10:00,Normal,-,-
+Archdemon,135,500,70,40,25,-,-,-,-,Cappella Magna,11:00,Normal,-,Boss
+Trinacria,136,400,55,50,20,-,-,-,-,Cappella Magna,10:00,Normal,-,-
+Stage Killer,137,250,45,80,12,-,-,-,-,Cappella Magna,11:00,Normal,-,-
+The Trickster,138,200,40,100,10,-,-,-,-,Cappella Magna,11:00,Normal,-,-
+The Stalker,139,180,35,90,9,-,-,-,-,Cappella Magna,10:00,Normal,-,-
+The Drowner,140,220,45,70,11,-,-,-,-,Cappella Magna,11:00,Normal,-,-
+The Maddener,141,300,50,60,15,-,-,-,-,Cappella Magna,12:00,Normal,-,-
+The Ender,142,400,60,50,20,-,-,-,-,Cappella Magna,12:00,Normal,-,Boss
+Astral Elemental,143,40,15,100,4,-,-,-,-,Astral Stair,3:00,Normal,-,-
+Astral Chair,144,80,20,60,5,-,-,-,-,Astral Stair,4:00,Normal,-,-
+Astral Curtain,145,60,18,80,4,-,-,-,-,Astral Stair,5:00,Normal,-,-
+Undead Stars,146,100,25,70,6,-,-,-,-,Astral Stair,6:00,Normal,-,-
+Poetrait,147,150,30,50,8,-,-,-,-,Astral Stair,7:00,Normal,-,-
+Lord Ghost,148,30,12,200,4,-,-,-,-,Astral Stair,8:00,Normal,-,-
+Cosmic Egg,149,250,40,30,12,-,-,-,-,Astral Stair,9:00,Normal,-,-
+The Blinder,150,180,35,60,9,-,-,-,-,Astral Stair,10:00,Normal,-,-
+Torino (enemy),151,300,45,50,15,-,-,-,-,Mazerella,Any,Normal,-,-
+Joyatauro,152,400,55,40,20,-,-,-,-,Mazerella,Any,Normal,-,-
+AccumulaTori,153,600,70,30,30,-,-,-,-,Mazerella,Any,Normal,-,Boss
+17th Collossus,154,1000,80,20,50,-,-,-,-,Mazerella,Any,Normal,-,Boss
+Ska'sa Ka'sos,155,100,30,80,6,-,-,-,-,Room 1665,Any,Normal,-,-
+Juda R'kasso,156,150,40,70,8,-,-,-,-,Room 1665,Any,Normal,-,-
+Foo'Ori Darkasso,157,200,50,60,10,-,-,-,-,Room 1665,Any,Normal,-,-
+Shendi Darkasso,158,250,60,50,12,-,-,-,-,Room 1665,Any,Normal,-,-
+Sphon'Dato Darkasso,159,300,70,40,15,-,-,-,-,Room 1665,Any,Normal,-,-
+Eh'Lleve-Teh Darkasso,160,350,80,35,18,-,-,-,-,Room 1665,Any,Normal,-,-
+Levatee Darkasso,161,400,90,30,20,-,-,-,-,Room 1665,Any,Normal,-,-
+Levarsee Darkasso,162,500,100,25,25,-,-,-,-,Room 1665,Any,Normal,-,Boss
+Sun Atlantean,163,80,20,70,5,-,-,-,-,Special,Any,Special,-,-
+Moon Atlantean,164,80,20,70,5,-,-,-,-,Special,Any,Special,-,-
+City Atlantean,165,100,25,60,6,-,-,-,-,Special,Any,Special,-,-
+Volcano Atlantean,166,150,35,50,8,-,-,-,-,Special,Any,Special,-,-
+The Reaper,167,1000,100,30,50,-,-,-,-,Special,Any,Special,-,Boss
+Mimic Season One,168,50,15,60,3,-,-,-,-,Special,Any,Event,-,Chest Mimic
+Mimic Season Two,169,80,20,60,4,-,-,-,-,Special,Any,Event,-,Chest Mimic
+Mimic Season Three,170,120,30,60,6,-,-,-,-,Special,Any,Event,-,Chest Mimic
+Tri-Anchors,171,200,40,50,10,-,-,-,-,Special,Any,Special,-,-
+LV128 Golden Bat,172,1,1,0,0,-,-,-,-,Special,Any,Special,-,Instant Kill
+The Directer,173,500,60,40,25,-,-,-,-,Eudaimonia Machine,Any,Special,-,Boss (Phase 2)

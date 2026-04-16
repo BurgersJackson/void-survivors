@@ -1,0 +1,5586 @@
+{
+  "weapons": [
+    {
+      "name": "Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.35,
+      "pierce": null,
+      "poolLimit": 30,
+      "rarity": 100,
+      "description": "Attacks horizontally, passes through enemies",
+      "unlockCondition": "Unlocked by default",
+      "evolution": "Bloody Tear",
+      "requiredPassive": null
+    },
+    {
+      "name": "Magic Wand",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.2,
+      "pierce": 0,
+      "poolLimit": 60,
+      "rarity": 100,
+      "description": "Fires at the nearest enemy",
+      "unlockCondition": "Unlocked by default",
+      "evolution": "Holy Wand",
+      "requiredPassive": null
+    },
+    {
+      "name": "Knife",
+      "baseDamage": 6.5,
+      "maxLevel": 8,
+      "cooldown": 1.0,
+      "pierce": 1,
+      "poolLimit": 70,
+      "rarity": 100,
+      "description": "Fires quickly in the faced direction",
+      "unlockCondition": "Unlocked by default",
+      "evolution": "Thousand Edge",
+      "requiredPassive": null
+    },
+    {
+      "name": "Axe",
+      "baseDamage": 20.0,
+      "maxLevel": 8,
+      "cooldown": 4.0,
+      "pierce": 3,
+      "poolLimit": 70,
+      "rarity": 100,
+      "description": "High damage, high Area scaling",
+      "unlockCondition": "Unlocked by default",
+      "evolution": "Death Spiral",
+      "requiredPassive": null
+    },
+    {
+      "name": "Cross",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 30,
+      "rarity": 80,
+      "description": "Aims at nearest enemy, has boomerang effect",
+      "unlockCondition": "Find a Rosary",
+      "evolution": "Heaven Sword",
+      "requiredPassive": null
+    },
+    {
+      "name": "King Bible",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 80,
+      "description": "Orbits around the character",
+      "unlockCondition": "Scales with all stat bonuses. Best with Speed, Duration, and Area",
+      "evolution": "Unholy Vespers",
+      "requiredPassive": null
+    },
+    {
+      "name": "Fire Wand",
+      "baseDamage": 20.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 20,
+      "rarity": 80,
+      "description": "Fires at a random enemy, deals heavy damage",
+      "unlockCondition": "Destroy 20 light sources",
+      "evolution": "Hellfire",
+      "requiredPassive": null
+    },
+    {
+      "name": "Garlic",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 1.3,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 70,
+      "description": "Damages nearby enemies. Reduces resistance to knockback and freeze",
+      "unlockCondition": "Consume 5 Floor Chickens",
+      "evolution": "Soul Eater",
+      "requiredPassive": null
+    },
+    {
+      "name": "Santa Water",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 4.5,
+      "pierce": null,
+      "poolLimit": 20,
+      "rarity": 100,
+      "description": "Generates damaging zones",
+      "unlockCondition": "Unlocked by default",
+      "evolution": "La Borra",
+      "requiredPassive": null
+    },
+    {
+      "name": "Runetracer",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 25,
+      "rarity": 80,
+      "description": "Passes through enemies, bounces around",
+      "unlockCondition": "Survive 5 minutes with Pasqualina",
+      "evolution": "NO FUTURE",
+      "requiredPassive": null
+    },
+    {
+      "name": "Lightning Ring",
+      "baseDamage": 15.0,
+      "maxLevel": 8,
+      "cooldown": 4.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 80,
+      "description": "Strikes at random enemies",
+      "unlockCondition": "Defeat a total of 5,000 enemies",
+      "evolution": "Thunder Loop",
+      "requiredPassive": null
+    },
+    {
+      "name": "Pentagram",
+      "baseDamage": null,
+      "maxLevel": 8,
+      "cooldown": 90.0,
+      "pierce": null,
+      "poolLimit": 10,
+      "rarity": 60,
+      "description": "Erases everything in sight",
+      "unlockCondition": "Survive 20 minutes with any character",
+      "evolution": "Gorgeous Moon",
+      "requiredPassive": null
+    },
+    {
+      "name": "Peachone",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 0.5,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 50,
+      "description": "Bombards in a circling zone (clockwise)",
+      "unlockCondition": "Survive 10 minutes with any character",
+      "evolution": "Vandalier",
+      "requiredPassive": null
+    },
+    {
+      "name": "Ebony Wings",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 0.5,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 50,
+      "description": "Bombards in a circling zone (counterclockwise)",
+      "unlockCondition": "Get Peachone to Level 7",
+      "evolution": "Vandalier",
+      "requiredPassive": null
+    },
+    {
+      "name": "Phiera Der Tuphello",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 1.4,
+      "pierce": 7,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Fires quickly in four fixed directions",
+      "unlockCondition": "Survive 10 minutes with Pugnala",
+      "evolution": "Phieraggi",
+      "requiredPassive": null
+    },
+    {
+      "name": "Eight The Sparrow",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 1.4,
+      "pierce": 7,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Fires quickly in four fixed directions",
+      "unlockCondition": "Survive 15 minutes with Pugnala",
+      "evolution": "Phieraggi",
+      "requiredPassive": null
+    },
+    {
+      "name": "Gatti Amari",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 5.0,
+      "pierce": null,
+      "poolLimit": 30,
+      "rarity": 50,
+      "description": "Summons capricious projectiles. May interact with pickups",
+      "unlockCondition": "Survive 15 minutes with Giovanna",
+      "evolution": "Vicious Hunger",
+      "requiredPassive": null
+    },
+    {
+      "name": "Song of Mana",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 15,
+      "rarity": 50,
+      "description": "Attacks vertically, passes through enemies",
+      "unlockCondition": "Survive 15 minutes with Poppea",
+      "evolution": "Mannajja",
+      "requiredPassive": null
+    },
+    {
+      "name": "Shadow Pinion",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 6.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Generating damaging zones when moving, strikes when stopping",
+      "unlockCondition": "Survive 15 minutes with Concetta",
+      "evolution": "Valkyrie Turner",
+      "requiredPassive": null
+    },
+    {
+      "name": "Clock Lancet",
+      "baseDamage": null,
+      "maxLevel": 7,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 10,
+      "rarity": 70,
+      "description": "Chance to freeze enemies in time",
+      "unlockCondition": "Find an Orologion",
+      "evolution": "Infinite Corridor",
+      "requiredPassive": null
+    },
+    {
+      "name": "Laurel",
+      "baseDamage": null,
+      "maxLevel": 7,
+      "cooldown": 10.0,
+      "pierce": null,
+      "poolLimit": 5,
+      "rarity": 60,
+      "description": "Shields from damage while active",
+      "unlockCondition": "Unlocked by default",
+      "evolution": "Crimson Shroud",
+      "requiredPassive": null
+    },
+    {
+      "name": "Vento Sacro",
+      "baseDamage": 2.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 120,
+      "rarity": 50,
+      "description": "Stronger with continuous movement. Can deal critical damage",
+      "unlockCondition": "Survive 15 minutes with Zi'Assunta",
+      "evolution": "Fuwalafuwaloo",
+      "requiredPassive": null
+    },
+    {
+      "name": "Bone",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 1,
+      "description": "Throws a bouncing projectile",
+      "unlockCondition": "Start with Mortaccio",
+      "evolution": "Anima of Mortaccio",
+      "requiredPassive": null
+    },
+    {
+      "name": "Cherry Bomb",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 1,
+      "description": "Throws a bouncing projectile that explodes after some time",
+      "unlockCondition": "Start with Yatta Cavallo",
+      "evolution": "Yatta Daikarin",
+      "requiredPassive": null
+    },
+    {
+      "name": "Carréllo",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 5.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 1,
+      "description": "Throws a bouncing projectile. Number of bounces affected by Amount",
+      "unlockCondition": "Start with Bianca Ramba",
+      "evolution": "Carozza!",
+      "requiredPassive": null
+    },
+    {
+      "name": "Celestial Dusting",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 6.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 1,
+      "description": "Throws a bouncing projectile. Cooldown reduces when moving",
+      "unlockCondition": "Start with O'Sole Meeo",
+      "evolution": "Profusione D'Amore",
+      "requiredPassive": null
+    },
+    {
+      "name": "La Robba",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 4.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 1,
+      "description": "Generates bouncing projectiles",
+      "unlockCondition": "Start with Sir Ambrojoe",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Greatest Jubilee",
+      "baseDamage": 10.0,
+      "maxLevel": 9,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 20,
+      "description": "Has a chance to summon light sources",
+      "unlockCondition": "Complete Eudaimonia Machine after Endless+Inverse runs",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Bracelet",
+      "baseDamage": 10.0,
+      "maxLevel": 6,
+      "cooldown": 1.4,
+      "pierce": 3,
+      "poolLimit": 80,
+      "rarity": 40,
+      "description": "Fires three projectiles at a random enemy",
+      "unlockCondition": "Survive 30 minutes with Gallo or Divano",
+      "evolution": "Bi-Bracelet",
+      "requiredPassive": null
+    },
+    {
+      "name": "Candybox",
+      "baseDamage": null,
+      "maxLevel": 1,
+      "cooldown": null,
+      "pierce": null,
+      "poolLimit": null,
+      "rarity": 2,
+      "description": "Allows you to choose any unlocked base weapon",
+      "unlockCondition": "Discover every standard evolution and union",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Pako Battiliar",
+      "baseDamage": 20.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 60,
+      "description": "May retaliate when losing health",
+      "unlockCondition": "Defeat 61,616 bats",
+      "evolution": "Mazo Familiar",
+      "requiredPassive": null
+    },
+    {
+      "name": "Ammo Appalate",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 60,
+      "description": "Aims at an enemy in the faced direction. Stockpiles projectiles when enemies are out of range",
+      "unlockCondition": "Defeat 251,096 shooting enemies",
+      "evolution": "Gunastrophe",
+      "requiredPassive": null
+    },
+    {
+      "name": "Victory Sword",
+      "baseDamage": 5.0,
+      "maxLevel": 12,
+      "cooldown": 1.85,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 30,
+      "description": "Strikes with a combo attack at the nearest enemy. Retaliates",
+      "unlockCondition": "Defeat 100,000 enemies in a single run with Sigma",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Flames of Misspell",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 4.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 30,
+      "description": "Emits cones of flames",
+      "unlockCondition": "Unlock Avatar Infernas",
+      "evolution": "Ashes of Muspell",
+      "requiredPassive": null
+    },
+    {
+      "name": "Chaos Rune",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 40,
+      "rarity": 40,
+      "description": "Speed and Duration affect the number of hit boxes instead",
+      "unlockCondition": "Cast the spell 'guinigigi'",
+      "evolution": "Wicked Ruler",
+      "requiredPassive": null
+    },
+    {
+      "name": "Glass Fandango",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Stronger with movement, Orologions, and against frozen enemies",
+      "unlockCondition": "Find in Whiteout and get to Level 7",
+      "evolution": "Celestial Voulge",
+      "requiredPassive": null
+    },
+    {
+      "name": "Santa Javelin",
+      "baseDamage": 20.0,
+      "maxLevel": 8,
+      "cooldown": 4.0,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 60,
+      "description": "Duration affects Amount. Can deal critical damage",
+      "unlockCondition": "Get Santa Javelin to Level 7",
+      "evolution": "Seraphic Cry",
+      "requiredPassive": null
+    },
+    {
+      "name": "Gaze of Gaea",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Might Defang enemies",
+      "unlockCondition": "Defeat 0 enemies in The Coop",
+      "evolution": "Embrace of Gaea",
+      "requiredPassive": null
+    },
+    {
+      "name": "Magi-Stone",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 60,
+      "description": "Deals fixed damage based on Weapon Level",
+      "unlockCondition": "Get Magi-Stone to Level 7",
+      "evolution": "Kyra-Stones",
+      "requiredPassive": null
+    },
+    {
+      "name": "Phas3r",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 1.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Generates thin damaging zones. High Amount scaling",
+      "unlockCondition": "Get Phas3r to Level 7",
+      "evolution": "Photonstorm",
+      "requiredPassive": null
+    },
+    {
+      "name": "Arma Dio",
+      "baseDamage": null,
+      "maxLevel": 1,
+      "cooldown": null,
+      "pierce": null,
+      "poolLimit": null,
+      "rarity": 30,
+      "description": "Allows you to choose an extra passive weapon",
+      "unlockCondition": "Find an Arma Dio",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Silver Wind",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Defeated enemies might drop hearts",
+      "unlockCondition": "Survive 15 minutes with Miang Moonspell",
+      "evolution": "Festive Winds",
+      "requiredPassive": null
+    },
+    {
+      "name": "Four Seasons",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 4.0,
+      "pierce": null,
+      "poolLimit": 30,
+      "rarity": 50,
+      "description": "Generates 4 explosions. Amount and Duration affect damage instead",
+      "unlockCondition": "Survive 15 minutes with Menya Moonspell",
+      "evolution": "Godai Shuffle",
+      "requiredPassive": null
+    },
+    {
+      "name": "Summon Night",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 60,
+      "rarity": 50,
+      "description": "Generates damaging zones above the character",
+      "unlockCondition": "Survive 15 minutes with Syuuto Moonspell",
+      "evolution": "Echo Night",
+      "requiredPassive": null
+    },
+    {
+      "name": "Mirage Robe",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Generates freezing static projectiles with a chance to explode",
+      "unlockCondition": "Survive 15 minutes with Babi-Onna",
+      "evolution": "J'Odore",
+      "requiredPassive": null
+    },
+    {
+      "name": "Night Sword",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 2.2,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 30,
+      "description": "Retaliates with bonus damage affected by Greed. Might steal hearts",
+      "unlockCondition": "Find in Mt.Moonspell",
+      "evolution": "Muramasa",
+      "requiredPassive": null
+    },
+    {
+      "name": "Mille Bolle Blu",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 2.6,
+      "pierce": null,
+      "poolLimit": 140,
+      "rarity": 1,
+      "description": "Fires lingering projectiles",
+      "unlockCondition": "Start with Gav'Et-Oni",
+      "evolution": "Boo Roo Boolle",
+      "requiredPassive": null
+    },
+    {
+      "name": "108 Bocce",
+      "baseDamage": 12.0,
+      "maxLevel": 8,
+      "cooldown": 1.3,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 10,
+      "description": "Damage affected by the difference between Curse and Luck",
+      "unlockCondition": "Survive 15 minutes with McCoy-Oni",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "SpellString",
+      "baseDamage": 5.0,
+      "maxLevel": 6,
+      "cooldown": 0.9,
+      "pierce": 1,
+      "poolLimit": 100,
+      "rarity": 70,
+      "description": "Strikes at nearby enemies. Damage multiplied by Speed",
+      "unlockCondition": "Survive 15 minutes with Eleanor Foscari",
+      "evolution": "SpellStrom",
+      "requiredPassive": null
+    },
+    {
+      "name": "SpellStream",
+      "baseDamage": 5.0,
+      "maxLevel": 6,
+      "cooldown": 1.8,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 70,
+      "description": "Generates expanding damaging zone. Damage multiplied by Area",
+      "unlockCondition": "Get SpellStream to Level 6",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "SpellStrike",
+      "baseDamage": 20.0,
+      "maxLevel": 6,
+      "cooldown": 3.6,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 70,
+      "description": "Strikes at nearest enemy. Damage further multiplied by Might",
+      "unlockCondition": "Get SpellStrike to Level 6",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Eskizzibur",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.7,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Attacks nearby enemies. Retaliates",
+      "unlockCondition": "Survive 15 minutes with Maruto Cuts",
+      "evolution": "Legionnaire",
+      "requiredPassive": null
+    },
+    {
+      "name": "Flash Arrow",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 4.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Can deal critical damage. Amount affects damage instead",
+      "unlockCondition": "Survive 15 minutes with Keitha Muort",
+      "evolution": "Millionaire",
+      "requiredPassive": null
+    },
+    {
+      "name": "Prismatic Missile",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Generates explosions around character. Affected by first chosen Arcana",
+      "unlockCondition": "Survive 15 minutes with Luminaire Foscari",
+      "evolution": "Luminaire",
+      "requiredPassive": null
+    },
+    {
+      "name": "Shadow Servant",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 50,
+      "description": "Has a chance to slow enemies down",
+      "unlockCondition": "Survive 15 minutes with Genevieve Gruyère",
+      "evolution": "Ophion",
+      "requiredPassive": null
+    },
+    {
+      "name": "Party Popper",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": 10,
+      "poolLimit": 80,
+      "rarity": 1,
+      "description": "Throws bouncing projectiles",
+      "unlockCondition": "Start with Rottin'Ghoul",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Report!",
+      "baseDamage": 6.5,
+      "maxLevel": 8,
+      "cooldown": 1.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Damages enemies and pushes them away",
+      "unlockCondition": "Survive 15 minutes with Crewmate Dino",
+      "evolution": "Emergency Meeting",
+      "requiredPassive": null
+    },
+    {
+      "name": "Lucky Swipe",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Amount of Luck is affected by Amount and by low Luck",
+      "unlockCondition": "Survive 15 minutes with Engineer Gino",
+      "evolution": "Crossed Wires",
+      "requiredPassive": null
+    },
+    {
+      "name": "Lifesign Scan",
+      "baseDamage": null,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 40,
+      "rarity": 40,
+      "description": "Restores HP based on Amount and Recovery",
+      "unlockCondition": "Get Lifesign Scan to Level 7",
+      "evolution": "Paranormal Scan",
+      "requiredPassive": null
+    },
+    {
+      "name": "Just Vent",
+      "baseDamage": 200.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Destroys or heavily damages enemies. Amount affects how many times it can trigger",
+      "unlockCondition": "Survive 15 minutes with Shapeshifter Nino",
+      "evolution": "Unjust Ejection",
+      "requiredPassive": null
+    },
+    {
+      "name": "Clear Debris",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Generates projectile spawning zones that follow the player",
+      "unlockCondition": "Reach Level 50 with Guardian Pina",
+      "evolution": "Clear Asteroids",
+      "requiredPassive": null
+    },
+    {
+      "name": "Sharp Tongue",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Strikes enemies in front of you. Damage multiplied by Recovery",
+      "unlockCondition": "Survive 15 minutes with Impostor Rina",
+      "evolution": "Impostongue",
+      "requiredPassive": null
+    },
+    {
+      "name": "Science Rocks",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Generates zones that explode when touched. Amount affects number of explosion clusters",
+      "unlockCondition": "Reach Level 50 with Scientist Mina",
+      "evolution": "Rocket Science",
+      "requiredPassive": null
+    },
+    {
+      "name": "Hats",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 1,
+      "rarity": 1,
+      "description": "Throws cute bouncing projectiles with random properties",
+      "unlockCondition": "Start with Horse",
+      "evolution": "None",
+      "requiredPassive": null
+    },
+    {
+      "name": "Long Gun",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 0.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires constantly in the faced direction",
+      "unlockCondition": "Survive 15 minutes with Bill Rizer",
+      "evolution": "Prototype A",
+      "requiredPassive": null
+    },
+    {
+      "name": "Short Gun",
+      "baseDamage": 20.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires bursts of decaying projectiles horizontally",
+      "unlockCondition": "Survive 15 minutes with Lance Bean",
+      "evolution": "Prototype B",
+      "requiredPassive": null
+    },
+    {
+      "name": "Spread Shot",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires in a wide spread in the faced direction",
+      "unlockCondition": "Survive 15 minutes with Ariana",
+      "evolution": "Prototype C",
+      "requiredPassive": null
+    },
+    {
+      "name": "C-U-Laser",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires a piercing projectile in the faced direction",
+      "unlockCondition": "Survive 15 minutes with Lucia Zero",
+      "evolution": "Pronto Beam",
+      "requiredPassive": null
+    },
+    {
+      "name": "Firearm",
+      "baseDamage": 8.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires spinning projectiles at the nearest enemy",
+      "unlockCondition": "Survive 15 minutes with Brad Fang",
+      "evolution": "Fire-L3GS",
+      "requiredPassive": null
+    },
+    {
+      "name": "Sonic Bloom",
+      "baseDamage": 7.5,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires growing projectiles in the faced direction",
+      "unlockCondition": "Survive 15 minutes with Browny",
+      "evolution": "Wave Beam",
+      "requiredPassive": null
+    },
+    {
+      "name": "Homing Miss",
+      "baseDamage": 20.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires exploding projectiles that home in on enemies",
+      "unlockCondition": "Survive 15 minutes with Stanley",
+      "evolution": "Multistage Missiles",
+      "requiredPassive": null
+    },
+    {
+      "name": "Diver Mines",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires explosive projectiles that travel along walls",
+      "unlockCondition": "Survive 15 minutes with Newt Plissken",
+      "evolution": "Atmo-Torpedo",
+      "requiredPassive": null
+    },
+    {
+      "name": "Blade Crossbow",
+      "baseDamage": 4.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Fires homing projectiles that spin in place when they hit",
+      "unlockCondition": "Survive 15 minutes with Sheena Etranzi",
+      "evolution": "BFC2000-AD",
+      "requiredPassive": null
+    },
+    {
+      "name": "Prism Lass",
+      "baseDamage": 8.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Has a small chance to freeze enemies",
+      "unlockCondition": "Survive 15 minutes with Probotector",
+      "evolution": "Time Warp",
+      "requiredPassive": null
+    },
+    {
+      "name": "Metal Claw",
+      "baseDamage": 40.0,
+      "maxLevel": 8,
+      "cooldown": 4.0,
+      "pierce": null,
+      "poolLimit": 50,
+      "rarity": 50,
+      "description": "Cooldown is affected by missing health",
+      "unlockCondition": "Survive 15 minutes with Colonel Bahamut",
+      "evolution": "Big Fuzzy Fist",
+      "requiredPassive": null
+    },
+    {
+      "name": "Alchemy Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Grows stronger every time a boss enemy is defeated",
+      "unlockCondition": "Survive 6 minutes with Leon Belmont",
+      "evolution": "Vampire Killer",
+      "requiredPassive": null
+    },
+    {
+      "name": "Wind Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Damage affected by growth",
+      "unlockCondition": "Survive 12 minutes with Simon Belmont",
+      "evolution": "Spirit Tornado Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Platinum Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Every 3rd activation fires projectiles in fixed directions",
+      "unlockCondition": "Survive 18 minutes with Richter Belmont",
+      "evolution": "Cross Crasher Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Dragon Water Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Every 7th activation fires a snaking dragon projectile",
+      "unlockCondition": "Survive 10 minutes with Trevor Belmont",
+      "evolution": "Hydrostormer Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Sonic Whip",
+      "baseDamage": 5.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Chance to instant kill based on curse",
+      "unlockCondition": "Survive 8 minutes with Sonia Belmont",
+      "evolution": "Crissaegrim Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Jet Black Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Strikes at nearest enemy and generates linear damaging zone",
+      "unlockCondition": "Survive 14 minutes with Christopher Belmont",
+      "evolution": "Mormegil Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Vibhuti Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 100,
+      "rarity": 80,
+      "description": "Strikes nearest enemy and generates a cluster of explosions",
+      "unlockCondition": "Survive 16 minutes with Juste Belmont",
+      "evolution": "Daybreaker Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Vanitas Whip",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 3.0,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Strikes nearest enemy and generates perpendicular damaging zone. Zone damage affected by MaxHealth",
+      "unlockCondition": "Survive 20 minutes with Julius Belmont",
+      "evolution": "Aurablaster Tip",
+      "requiredPassive": null
+    },
+    {
+      "name": "Shuriken",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.0,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Fires projectiles in the faced direction",
+      "unlockCondition": "Get Shuriken to Level 2 (Ode to Castlevania DLC)",
+      "evolution": "Yagyu Shuriken",
+      "requiredPassive": null
+    },
+    {
+      "name": "Curved Knife",
+      "baseDamage": 8.0,
+      "maxLevel": 8,
+      "cooldown": 1.0,
+      "pierce": null,
+      "poolLimit": 80,
+      "rarity": 80,
+      "description": "Fires a spinning projectile at random enemy",
+      "unlockCondition": "Get Curved Knife to Level 1 (Ode to Castlevania DLC)",
+      "evolution": "Bwaka Knife",
+      "requiredPassive": null
+    },
+    {
+      "name": "Javelin",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 2.5,
+      "pierce": null,
+      "poolLimit": 70,
+      "rarity": 70,
+      "description": "Fires a penetrating projectile in a fixed direction",
+      "unlockCondition": "Get Javelin to Level 3 (Ode to Castlevania DLC)",
+      "evolution": "Long Inus",
+      "requiredPassive": null
+    },
+    {
+      "name": "Discus",
+      "baseDamage": 10.0,
+      "maxLevel": 8,
+      "cooldown": 1.5,
+      "pierce": null,
+      "poolLimit": 70,
+      "rarity": 70,
+      "description": "Fires a defensive projectile",
+      "unlockCondition": "Get Discus to Level 1 (Ode to Castlevania DLC)",
+      "evolution": "Throwing Boomerang",
+      "requiredPassive": null
+    }
+  ],
+  "passiveItems": [
+    {
+      "name": "Spinach",
+      "type": "Might",
+      "description": "Slightly increases damage dealt by the player",
+      "stageDropLocation": "Mad Forest, Whiteout, Mt.Moonspell"
+    },
+    {
+      "name": "Hollow Heart",
+      "type": "Max Health",
+      "description": "Increases maximum HP",
+      "stageDropLocation": "Mad Forest"
+    },
+    {
+      "name": "Pummarola",
+      "type": "Recovery",
+      "description": "Provides passive HP regeneration",
+      "stageDropLocation": "Mad Forest, Mt.Moonspell"
+    },
+    {
+      "name": "Clover",
+      "type": "Luck",
+      "description": "Improves drop rates and luck-based effects",
+      "stageDropLocation": "Mad Forest, Laborratory, Lake Foscari"
+    },
+    {
+      "name": "Skull O'Maniac",
+      "type": "Curse",
+      "description": "Increases enemy spawn rate, health and speed",
+      "stageDropLocation": "Mad Forest, Whiteout, Lake Foscari, Abyss Foscari"
+    },
+    {
+      "name": "Stone Mask",
+      "type": "Greed",
+      "description": "Increases gold gain from pickups and chests",
+      "stageDropLocation": "Inlaid Library, Mt.Moonspell, Abyss Foscari"
+    },
+    {
+      "name": "Empty Tome",
+      "type": "Cooldown",
+      "description": "Reduces weapon cooldowns",
+      "stageDropLocation": "Inlaid Library, Space 54, Abyss Foscari"
+    },
+    {
+      "name": "Attractorb",
+      "type": "Magnet",
+      "description": "Expands pickup attraction radius",
+      "stageDropLocation": "Dairy Plant, Laborratory, Mt.Moonspell, Abyss Foscari, Tiny Bridge"
+    },
+    {
+      "name": "Candelabrador",
+      "type": "Area",
+      "description": "Increases weapon area of effect",
+      "stageDropLocation": "Dairy Plant, Space 54, Mt.Moonspell"
+    },
+    {
+      "name": "Wings",
+      "type": "Move Speed",
+      "description": "Increases character movement speed",
+      "stageDropLocation": "Dairy Plant, Whiteout, Tiny Bridge, Neo Galuga"
+    },
+    {
+      "name": "Armor",
+      "type": "Armor",
+      "description": "Reduces incoming damage",
+      "stageDropLocation": "Dairy Plant, Lake Foscari, Abyss Foscari"
+    },
+    {
+      "name": "Bracer",
+      "type": "Speed",
+      "description": "Increases projectile speed",
+      "stageDropLocation": "Gallo Tower, Lake Foscari"
+    },
+    {
+      "name": "Spellbinder",
+      "type": "Duration",
+      "description": "Extends weapon effect duration",
+      "stageDropLocation": "Gallo Tower, Laborratory"
+    },
+    {
+      "name": "Duplicator",
+      "type": "Amount",
+      "description": "Adds extra projectiles to weapons",
+      "stageDropLocation": "Cappella Magna, Mt.Moonspell"
+    },
+    {
+      "name": "Crown",
+      "type": "Growth",
+      "description": "Increases experience gem value",
+      "stageDropLocation": "Cappella Magna, Lake Foscari, Abyss Foscari"
+    },
+    {
+      "name": "Tirajisú",
+      "type": "Revival",
+      "description": "Grants extra lives",
+      "stageDropLocation": "Cappella Magna, Ode to Castlevania"
+    },
+    {
+      "name": "Silver Ring",
+      "type": "Area+Duration",
+      "description": "Increases area and duration",
+      "stageDropLocation": "Hidden (after Yellow Sign) - north"
+    },
+    {
+      "name": "Gold Ring",
+      "type": "Curse",
+      "description": "Increases enemy spawns",
+      "stageDropLocation": "Hidden (after Yellow Sign) - south"
+    },
+    {
+      "name": "Metaglio Left",
+      "type": "MaxHealth+Recovery",
+      "description": "Increases max HP and recovery",
+      "stageDropLocation": "Hidden (after Yellow Sign) - west"
+    },
+    {
+      "name": "Metaglio Right",
+      "type": "Curse+Might",
+      "description": "Increases curse and might",
+      "stageDropLocation": "Hidden (after Yellow Sign) - east"
+    },
+    {
+      "name": "Torrona's Box",
+      "type": "Might+Area+Speed+Duration+Curse",
+      "description": "Powerful all-stat bonus item",
+      "stageDropLocation": "Abyss Foscari (rare)"
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Skeleton",
+      "bestiaryNumber": 6,
+      "hp": 15,
+      "power": 10,
+      "speed": 100,
+      "xp": 2.0,
+      "foundIn": [
+        "Mad Forest",
+        "Dairy Plant",
+        "Gallo Tower",
+        "Bone Zone",
+        "Boss Rash",
+        "Eudaimonia"
+      ],
+      "spawnMinute": "3:00",
+      "spawnType": "Normal",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Zombie",
+      "bestiaryNumber": 5,
+      "hp": 30,
+      "power": 5,
+      "speed": 50,
+      "xp": 2.0,
+      "foundIn": [
+        "Mad Forest"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Mudman",
+      "bestiaryNumber": 8,
+      "hp": 45,
+      "power": 5,
+      "speed": 40,
+      "xp": 3.0,
+      "foundIn": [
+        "Mad Forest"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Flower Wall",
+      "bestiaryNumber": 10,
+      "hp": 5,
+      "power": 1,
+      "speed": 0,
+      "xp": 1.0,
+      "foundIn": [
+        "Mad Forest"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Giant Bat",
+      "bestiaryNumber": 9,
+      "hp": 5,
+      "power": 3,
+      "speed": 150,
+      "xp": 1.0,
+      "foundIn": [
+        "Mad Forest",
+        "Dairy Plant",
+        "Gallo Tower",
+        "Boss Rash",
+        "Eudaimonia"
+      ],
+      "spawnMinute": "2:00",
+      "spawnType": "Normal",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Werewolf",
+      "bestiaryNumber": 12,
+      "hp": 40,
+      "power": 8,
+      "speed": 90,
+      "xp": 3.0,
+      "foundIn": [
+        "Mad Forest"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Ghost",
+      "bestiaryNumber": 11,
+      "hp": 10,
+      "power": 5,
+      "speed": 200,
+      "xp": 1.5,
+      "foundIn": [
+        "Mad Forest",
+        "Inlaid Library",
+        "Gallo Tower",
+        "Moongolow",
+        "Whiteout",
+        "Astral Stair",
+        "Tiny Bridge",
+        "Eudaimonia"
+      ],
+      "spawnMinute": "4:00",
+      "spawnType": "Normal",
+      "notes": "-",
+      "variant": "Blue Ghost"
+    },
+    {
+      "name": "Mantichana",
+      "bestiaryNumber": 14,
+      "hp": 50,
+      "power": 10,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Mad Forest",
+        "Westwood"
+      ],
+      "spawnMinute": "6:00",
+      "spawnType": "Normal",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Big Mummy",
+      "bestiaryNumber": 15,
+      "hp": 120,
+      "power": 15,
+      "speed": 30,
+      "xp": 6.0,
+      "foundIn": [
+        "Mad Forest"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Venus",
+      "bestiaryNumber": 16,
+      "hp": 80,
+      "power": 20,
+      "speed": 30,
+      "xp": 5.0,
+      "foundIn": [
+        "Mad Forest"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Pipeestrello",
+      "bestiaryNumber": 1,
+      "hp": 3,
+      "power": 2,
+      "speed": 200,
+      "xp": 1.0,
+      "foundIn": [
+        "Mad Forest",
+        "Dairy Plant",
+        "Boss Rash",
+        "Eudaimonia"
+      ],
+      "spawnMinute": "1:00",
+      "spawnType": "Normal",
+      "notes": "-",
+      "variant": "Boss (Arcana Boss)"
+    },
+    {
+      "name": "Dust Elemental",
+      "bestiaryNumber": 17,
+      "hp": 10,
+      "power": 5,
+      "speed": 100,
+      "xp": 2.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Lionhead",
+      "bestiaryNumber": 18,
+      "hp": 25,
+      "power": 8,
+      "speed": 70,
+      "xp": 3.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sig.ra Rossi",
+      "bestiaryNumber": 19,
+      "hp": 35,
+      "power": 12,
+      "speed": 80,
+      "xp": 3.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Hag",
+      "bestiaryNumber": 20,
+      "hp": 20,
+      "power": 15,
+      "speed": 50,
+      "xp": 3.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Nesufritto",
+      "bestiaryNumber": 21,
+      "hp": 30,
+      "power": 8,
+      "speed": 60,
+      "xp": 3.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Mummy",
+      "bestiaryNumber": 22,
+      "hp": 40,
+      "power": 10,
+      "speed": 40,
+      "xp": 4.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sneaky Head",
+      "bestiaryNumber": 23,
+      "hp": 15,
+      "power": 6,
+      "speed": 120,
+      "xp": 2.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Harzia",
+      "bestiaryNumber": 24,
+      "hp": 60,
+      "power": 20,
+      "speed": 50,
+      "xp": 5.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Musc Musc",
+      "bestiaryNumber": 25,
+      "hp": 25,
+      "power": 12,
+      "speed": 80,
+      "xp": 3.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Testa di Mano",
+      "bestiaryNumber": 26,
+      "hp": 50,
+      "power": 25,
+      "speed": 30,
+      "xp": 6.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Undead Witch",
+      "bestiaryNumber": 27,
+      "hp": 30,
+      "power": 10,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Undead Sassy Witch",
+      "bestiaryNumber": 28,
+      "hp": 30,
+      "power": 10,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Merdusa",
+      "bestiaryNumber": 29,
+      "hp": 80,
+      "power": 15,
+      "speed": 50,
+      "xp": 5.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skullone",
+      "bestiaryNumber": 30,
+      "hp": 150,
+      "power": 20,
+      "speed": 40,
+      "xp": 8.0,
+      "foundIn": [
+        "Inlaid Library"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Milk Elemental",
+      "bestiaryNumber": 31,
+      "hp": 20,
+      "power": 8,
+      "speed": 80,
+      "xp": 2.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Merman",
+      "bestiaryNumber": 32,
+      "hp": 60,
+      "power": 12,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Lizard Pawn",
+      "bestiaryNumber": 33,
+      "hp": 30,
+      "power": 10,
+      "speed": 80,
+      "xp": 3.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Twin Snakes",
+      "bestiaryNumber": 34,
+      "hp": 40,
+      "power": 15,
+      "speed": 100,
+      "xp": 4.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Lizard Rook",
+      "bestiaryNumber": 35,
+      "hp": 80,
+      "power": 20,
+      "speed": 50,
+      "xp": 5.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Twin Demons",
+      "bestiaryNumber": 36,
+      "hp": 100,
+      "power": 25,
+      "speed": 70,
+      "xp": 6.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Jellyfish",
+      "bestiaryNumber": 37,
+      "hp": 25,
+      "power": 5,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skeleton Ninja",
+      "bestiaryNumber": 38,
+      "hp": 20,
+      "power": 15,
+      "speed": 150,
+      "xp": 3.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Lost Twin",
+      "bestiaryNumber": 39,
+      "hp": 60,
+      "power": 10,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Melone",
+      "bestiaryNumber": 40,
+      "hp": 50,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Minotaur",
+      "bestiaryNumber": 41,
+      "hp": 150,
+      "power": 30,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Mignotaur",
+      "bestiaryNumber": 42,
+      "hp": 150,
+      "power": 30,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Lancia",
+      "bestiaryNumber": 43,
+      "hp": 40,
+      "power": 12,
+      "speed": 90,
+      "xp": 4.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Ascia",
+      "bestiaryNumber": 44,
+      "hp": 40,
+      "power": 12,
+      "speed": 90,
+      "xp": 4.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skelewing",
+      "bestiaryNumber": 45,
+      "hp": 60,
+      "power": 15,
+      "speed": 70,
+      "xp": 4.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Tritont",
+      "bestiaryNumber": 46,
+      "hp": 80,
+      "power": 18,
+      "speed": 60,
+      "xp": 5.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Manticore",
+      "bestiaryNumber": 47,
+      "hp": 200,
+      "power": 35,
+      "speed": 40,
+      "xp": 10.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Gallotrice",
+      "bestiaryNumber": 48,
+      "hp": 180,
+      "power": 30,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Big Golem",
+      "bestiaryNumber": 49,
+      "hp": 300,
+      "power": 40,
+      "speed": 30,
+      "xp": 15.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Meat Golem",
+      "bestiaryNumber": 50,
+      "hp": 250,
+      "power": 35,
+      "speed": 40,
+      "xp": 12.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sword Guardian",
+      "bestiaryNumber": 51,
+      "hp": 200,
+      "power": 45,
+      "speed": 35,
+      "xp": 10.0,
+      "foundIn": [
+        "Dairy Plant"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Bloodbath",
+      "bestiaryNumber": 52,
+      "hp": 30,
+      "power": 10,
+      "speed": 100,
+      "xp": 4.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skullino",
+      "bestiaryNumber": 53,
+      "hp": 25,
+      "power": 8,
+      "speed": 80,
+      "xp": 3.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skulorosso",
+      "bestiaryNumber": 54,
+      "hp": 35,
+      "power": 12,
+      "speed": 90,
+      "xp": 4.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Scarleton",
+      "bestiaryNumber": 55,
+      "hp": 80,
+      "power": 20,
+      "speed": 60,
+      "xp": 6.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Dragon Shrimp",
+      "bestiaryNumber": 56,
+      "hp": 60,
+      "power": 25,
+      "speed": 80,
+      "xp": 5.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Poltergeist",
+      "bestiaryNumber": 57,
+      "hp": 15,
+      "power": 8,
+      "speed": 150,
+      "xp": 3.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Impefinger",
+      "bestiaryNumber": 58,
+      "hp": 40,
+      "power": 15,
+      "speed": 100,
+      "xp": 4.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Ghiavolo",
+      "bestiaryNumber": 59,
+      "hp": 50,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Undead Mage",
+      "bestiaryNumber": 60,
+      "hp": 30,
+      "power": 10,
+      "speed": 60,
+      "xp": 3.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Spada",
+      "bestiaryNumber": 61,
+      "hp": 60,
+      "power": 18,
+      "speed": 80,
+      "xp": 5.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Disco",
+      "bestiaryNumber": 62,
+      "hp": 60,
+      "power": 18,
+      "speed": 80,
+      "xp": 5.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Giant Enemy Crab",
+      "bestiaryNumber": 63,
+      "hp": 200,
+      "power": 30,
+      "speed": 40,
+      "xp": 10.0,
+      "foundIn": [
+        "Gallo Tower"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sad Molisano",
+      "bestiaryNumber": 64,
+      "hp": 20,
+      "power": 5,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "Il Molise"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Happy Molisano",
+      "bestiaryNumber": 65,
+      "hp": 20,
+      "power": 5,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "Il Molise"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Cute Molisano",
+      "bestiaryNumber": 66,
+      "hp": 20,
+      "power": 5,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "Il Molise"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Old Molisano",
+      "bestiaryNumber": 67,
+      "hp": 20,
+      "power": 5,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "Il Molise"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Dead Molisano",
+      "bestiaryNumber": 68,
+      "hp": 20,
+      "power": 5,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "Il Molise"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Bambaman",
+      "bestiaryNumber": 69,
+      "hp": 40,
+      "power": 10,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "Whiteout"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Miragellos",
+      "bestiaryNumber": 70,
+      "hp": 30,
+      "power": 8,
+      "speed": 100,
+      "xp": 3.0,
+      "foundIn": [
+        "Whiteout"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Menta Elemental",
+      "bestiaryNumber": 71,
+      "hp": 20,
+      "power": 8,
+      "speed": 90,
+      "xp": 3.0,
+      "foundIn": [
+        "Whiteout"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Madd-Onna",
+      "bestiaryNumber": 72,
+      "hp": 60,
+      "power": 15,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Whiteout"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Kizzune",
+      "bestiaryNumber": 73,
+      "hp": 50,
+      "power": 20,
+      "speed": 120,
+      "xp": 5.0,
+      "foundIn": [
+        "Whiteout"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Holy Circuit Creations",
+      "bestiaryNumber": 74,
+      "hp": 100,
+      "power": 20,
+      "speed": 70,
+      "xp": 6.0,
+      "foundIn": [
+        "Laboratory"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Bounty Hunter",
+      "bestiaryNumber": 75,
+      "hp": 80,
+      "power": 25,
+      "speed": 90,
+      "xp": 6.0,
+      "foundIn": [
+        "Laboratory"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Space Hunter",
+      "bestiaryNumber": 76,
+      "hp": 120,
+      "power": 30,
+      "speed": 80,
+      "xp": 8.0,
+      "foundIn": [
+        "Laboratory"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Tri-Blunder",
+      "bestiaryNumber": 77,
+      "hp": 150,
+      "power": 35,
+      "speed": 60,
+      "xp": 10.0,
+      "foundIn": [
+        "Laboratory"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skelegem",
+      "bestiaryNumber": 78,
+      "hp": 200,
+      "power": 40,
+      "speed": 50,
+      "xp": 12.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Much Much",
+      "bestiaryNumber": 79,
+      "hp": 30,
+      "power": 10,
+      "speed": 100,
+      "xp": 3.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Gold Pile",
+      "bestiaryNumber": 80,
+      "hp": 5,
+      "power": 1,
+      "speed": 0,
+      "xp": 1.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Pickup",
+      "spawnType": "-",
+      "notes": "Gold Drop",
+      "variant": null
+    },
+    {
+      "name": "Gold Jellys",
+      "bestiaryNumber": 81,
+      "hp": 5,
+      "power": 1,
+      "speed": 0,
+      "xp": 1.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Pickup",
+      "spawnType": "-",
+      "notes": "Gold Drop",
+      "variant": null
+    },
+    {
+      "name": "Mantichana Idol",
+      "bestiaryNumber": 82,
+      "hp": 50,
+      "power": 10,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Knight of Spades",
+      "bestiaryNumber": 83,
+      "hp": 80,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Barm",
+      "bestiaryNumber": 84,
+      "hp": 40,
+      "power": 15,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Ghoulette",
+      "bestiaryNumber": 85,
+      "hp": 60,
+      "power": 18,
+      "speed": 80,
+      "xp": 5.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Goldie",
+      "bestiaryNumber": 86,
+      "hp": 5,
+      "power": 1,
+      "speed": 0,
+      "xp": 1.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Pickup",
+      "spawnType": "-",
+      "notes": "Gold Drop",
+      "variant": null
+    },
+    {
+      "name": "Dandybrine",
+      "bestiaryNumber": 87,
+      "hp": 100,
+      "power": 25,
+      "speed": 60,
+      "xp": 6.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Daimon",
+      "bestiaryNumber": 88,
+      "hp": 200,
+      "power": 30,
+      "speed": 40,
+      "xp": 10.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Gambergar",
+      "bestiaryNumber": 89,
+      "hp": 150,
+      "power": 35,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Gamblin",
+      "bestiaryNumber": 90,
+      "hp": 80,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Jastor",
+      "bestiaryNumber": 91,
+      "hp": 120,
+      "power": 25,
+      "speed": 60,
+      "xp": 7.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Mushroulette",
+      "bestiaryNumber": 92,
+      "hp": 60,
+      "power": 15,
+      "speed": 50,
+      "xp": 4.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Toll",
+      "bestiaryNumber": 93,
+      "hp": 40,
+      "power": 12,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Valentine",
+      "bestiaryNumber": 94,
+      "hp": 100,
+      "power": 25,
+      "speed": 70,
+      "xp": 6.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Squillers",
+      "bestiaryNumber": 95,
+      "hp": 80,
+      "power": 18,
+      "speed": 90,
+      "xp": 5.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Card Sharp",
+      "bestiaryNumber": 96,
+      "hp": 150,
+      "power": 30,
+      "speed": 60,
+      "xp": 8.0,
+      "foundIn": [
+        "Westwood"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Chickenfantry",
+      "bestiaryNumber": 97,
+      "hp": 10,
+      "power": 3,
+      "speed": 80,
+      "xp": 1.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Cockreliutennant",
+      "bestiaryNumber": 98,
+      "hp": 30,
+      "power": 8,
+      "speed": 60,
+      "xp": 2.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Chik",
+      "bestiaryNumber": 99,
+      "hp": 5,
+      "power": 2,
+      "speed": 100,
+      "xp": 1.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Egge",
+      "bestiaryNumber": 100,
+      "hp": 8,
+      "power": 3,
+      "speed": 90,
+      "xp": 1.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Pol.lo Rosso",
+      "bestiaryNumber": 101,
+      "hp": 15,
+      "power": 5,
+      "speed": 70,
+      "xp": 2.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Abraxas",
+      "bestiaryNumber": 102,
+      "hp": 200,
+      "power": 40,
+      "speed": 50,
+      "xp": 12.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Abraxas Phronesis",
+      "bestiaryNumber": 103,
+      "hp": 200,
+      "power": 40,
+      "speed": 50,
+      "xp": 12.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Abraxas Dynamis",
+      "bestiaryNumber": 104,
+      "hp": 200,
+      "power": 40,
+      "speed": 50,
+      "xp": 12.0,
+      "foundIn": [
+        "The Coop"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Gala Invader",
+      "bestiaryNumber": 105,
+      "hp": 30,
+      "power": 10,
+      "speed": 100,
+      "xp": 3.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Moon Rabbit",
+      "bestiaryNumber": 106,
+      "hp": 20,
+      "power": 8,
+      "speed": 120,
+      "xp": 2.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Moon Duck",
+      "bestiaryNumber": 107,
+      "hp": 25,
+      "power": 10,
+      "speed": 100,
+      "xp": 3.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Space Ant Onion",
+      "bestiaryNumber": 108,
+      "hp": 40,
+      "power": 15,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Space Pickle",
+      "bestiaryNumber": 109,
+      "hp": 60,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "ECMASlime",
+      "bestiaryNumber": 110,
+      "hp": 35,
+      "power": 12,
+      "speed": 90,
+      "xp": 4.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sinistronz",
+      "bestiaryNumber": 111,
+      "hp": 80,
+      "power": 25,
+      "speed": 80,
+      "xp": 6.0,
+      "foundIn": [
+        "Space 54"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Twin Skulls",
+      "bestiaryNumber": 112,
+      "hp": 40,
+      "power": 15,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "The Bone Zone"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skeleton Panther",
+      "bestiaryNumber": 113,
+      "hp": 30,
+      "power": 20,
+      "speed": 180,
+      "xp": 4.0,
+      "foundIn": [
+        "The Bone Zone"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Giant Skeleton",
+      "bestiaryNumber": 114,
+      "hp": 300,
+      "power": 50,
+      "speed": 40,
+      "xp": 15.0,
+      "foundIn": [
+        "The Bone Zone"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Skeletone",
+      "bestiaryNumber": 115,
+      "hp": 500,
+      "power": 60,
+      "speed": 30,
+      "xp": 25.0,
+      "foundIn": [
+        "The Bone Zone"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sketamari",
+      "bestiaryNumber": 116,
+      "hp": 200,
+      "power": 35,
+      "speed": 60,
+      "xp": 10.0,
+      "foundIn": [
+        "The Bone Zone"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Moongolow Atlanteans",
+      "bestiaryNumber": 117,
+      "hp": 50,
+      "power": 15,
+      "speed": 70,
+      "xp": 4.0,
+      "foundIn": [
+        "Moongolow"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Serpentvine",
+      "bestiaryNumber": 118,
+      "hp": 80,
+      "power": 20,
+      "speed": 50,
+      "xp": 5.0,
+      "foundIn": [
+        "Moongolow"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Garlic (enemy)",
+      "bestiaryNumber": 119,
+      "hp": 60,
+      "power": 10,
+      "speed": 40,
+      "xp": 4.0,
+      "foundIn": [
+        "Moongolow"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Nightshade",
+      "bestiaryNumber": 120,
+      "hp": 40,
+      "power": 12,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "Moongolow"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sig.ra Blu",
+      "bestiaryNumber": 121,
+      "hp": 100,
+      "power": 25,
+      "speed": 60,
+      "xp": 6.0,
+      "foundIn": [
+        "Moongolow"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Non-Giant Enemy Crab",
+      "bestiaryNumber": 122,
+      "hp": 100,
+      "power": 20,
+      "speed": 40,
+      "xp": 5.0,
+      "foundIn": [
+        "Moongolow"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Unknown",
+      "bestiaryNumber": 123,
+      "hp": 150,
+      "power": 30,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Reaper Trainee",
+      "bestiaryNumber": 124,
+      "hp": 80,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Tetrabrachia",
+      "bestiaryNumber": 125,
+      "hp": 200,
+      "power": 35,
+      "speed": 40,
+      "xp": 10.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Fiamma",
+      "bestiaryNumber": 126,
+      "hp": 120,
+      "power": 30,
+      "speed": 70,
+      "xp": 7.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Succubus (enemy)",
+      "bestiaryNumber": 127,
+      "hp": 100,
+      "power": 25,
+      "speed": 80,
+      "xp": 6.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Rame",
+      "bestiaryNumber": 128,
+      "hp": 150,
+      "power": 35,
+      "speed": 60,
+      "xp": 8.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Demon Priest",
+      "bestiaryNumber": 129,
+      "hp": 180,
+      "power": 40,
+      "speed": 50,
+      "xp": 10.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Fallen Cherub",
+      "bestiaryNumber": 130,
+      "hp": 120,
+      "power": 30,
+      "speed": 70,
+      "xp": 7.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Fallen Cherubbello",
+      "bestiaryNumber": 131,
+      "hp": 120,
+      "power": 30,
+      "speed": 70,
+      "xp": 7.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Fallen Throne",
+      "bestiaryNumber": 132,
+      "hp": 250,
+      "power": 45,
+      "speed": 40,
+      "xp": 12.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archon Oro",
+      "bestiaryNumber": 133,
+      "hp": 200,
+      "power": 40,
+      "speed": 50,
+      "xp": 10.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Demon Beast",
+      "bestiaryNumber": 134,
+      "hp": 300,
+      "power": 50,
+      "speed": 60,
+      "xp": 15.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Archdemon",
+      "bestiaryNumber": 135,
+      "hp": 500,
+      "power": 70,
+      "speed": 40,
+      "xp": 25.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Trinacria",
+      "bestiaryNumber": 136,
+      "hp": 400,
+      "power": 55,
+      "speed": 50,
+      "xp": 20.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Stage Killer",
+      "bestiaryNumber": 137,
+      "hp": 250,
+      "power": 45,
+      "speed": 80,
+      "xp": 12.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Trickster",
+      "bestiaryNumber": 138,
+      "hp": 200,
+      "power": 40,
+      "speed": 100,
+      "xp": 10.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Stalker",
+      "bestiaryNumber": 139,
+      "hp": 180,
+      "power": 35,
+      "speed": 90,
+      "xp": 9.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Drowner",
+      "bestiaryNumber": 140,
+      "hp": 220,
+      "power": 45,
+      "speed": 70,
+      "xp": 11.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Maddener",
+      "bestiaryNumber": 141,
+      "hp": 300,
+      "power": 50,
+      "speed": 60,
+      "xp": 15.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Ender",
+      "bestiaryNumber": 142,
+      "hp": 400,
+      "power": 60,
+      "speed": 50,
+      "xp": 20.0,
+      "foundIn": [
+        "Cappella Magna"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Astral Elemental",
+      "bestiaryNumber": 143,
+      "hp": 40,
+      "power": 15,
+      "speed": 100,
+      "xp": 4.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Astral Chair",
+      "bestiaryNumber": 144,
+      "hp": 80,
+      "power": 20,
+      "speed": 60,
+      "xp": 5.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Astral Curtain",
+      "bestiaryNumber": 145,
+      "hp": 60,
+      "power": 18,
+      "speed": 80,
+      "xp": 4.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Undead Stars",
+      "bestiaryNumber": 146,
+      "hp": 100,
+      "power": 25,
+      "speed": 70,
+      "xp": 6.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Poetrait",
+      "bestiaryNumber": 147,
+      "hp": 150,
+      "power": 30,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Lord Ghost",
+      "bestiaryNumber": 148,
+      "hp": 30,
+      "power": 12,
+      "speed": 200,
+      "xp": 4.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Cosmic Egg",
+      "bestiaryNumber": 149,
+      "hp": 250,
+      "power": 40,
+      "speed": 30,
+      "xp": 12.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Blinder",
+      "bestiaryNumber": 150,
+      "hp": 180,
+      "power": 35,
+      "speed": 60,
+      "xp": 9.0,
+      "foundIn": [
+        "Astral Stair"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Torino (enemy)",
+      "bestiaryNumber": 151,
+      "hp": 300,
+      "power": 45,
+      "speed": 50,
+      "xp": 15.0,
+      "foundIn": [
+        "Mazerella"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Joyatauro",
+      "bestiaryNumber": 152,
+      "hp": 400,
+      "power": 55,
+      "speed": 40,
+      "xp": 20.0,
+      "foundIn": [
+        "Mazerella"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "AccumulaTori",
+      "bestiaryNumber": 153,
+      "hp": 600,
+      "power": 70,
+      "speed": 30,
+      "xp": 30.0,
+      "foundIn": [
+        "Mazerella"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "17th Collossus",
+      "bestiaryNumber": 154,
+      "hp": 1000,
+      "power": 80,
+      "speed": 20,
+      "xp": 50.0,
+      "foundIn": [
+        "Mazerella"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Ska'sa Ka'sos",
+      "bestiaryNumber": 155,
+      "hp": 100,
+      "power": 30,
+      "speed": 80,
+      "xp": 6.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Juda R'kasso",
+      "bestiaryNumber": 156,
+      "hp": 150,
+      "power": 40,
+      "speed": 70,
+      "xp": 8.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Foo'Ori Darkasso",
+      "bestiaryNumber": 157,
+      "hp": 200,
+      "power": 50,
+      "speed": 60,
+      "xp": 10.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Shendi Darkasso",
+      "bestiaryNumber": 158,
+      "hp": 250,
+      "power": 60,
+      "speed": 50,
+      "xp": 12.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Sphon'Dato Darkasso",
+      "bestiaryNumber": 159,
+      "hp": 300,
+      "power": 70,
+      "speed": 40,
+      "xp": 15.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Eh'Lleve-Teh Darkasso",
+      "bestiaryNumber": 160,
+      "hp": 350,
+      "power": 80,
+      "speed": 35,
+      "xp": 18.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Levatee Darkasso",
+      "bestiaryNumber": 161,
+      "hp": 400,
+      "power": 90,
+      "speed": 30,
+      "xp": 20.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Levarsee Darkasso",
+      "bestiaryNumber": 162,
+      "hp": 500,
+      "power": 100,
+      "speed": 25,
+      "xp": 25.0,
+      "foundIn": [
+        "Room 1665"
+      ],
+      "spawnMinute": "Normal",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Sun Atlantean",
+      "bestiaryNumber": 163,
+      "hp": 80,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Moon Atlantean",
+      "bestiaryNumber": 164,
+      "hp": 80,
+      "power": 20,
+      "speed": 70,
+      "xp": 5.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "City Atlantean",
+      "bestiaryNumber": 165,
+      "hp": 100,
+      "power": 25,
+      "speed": 60,
+      "xp": 6.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "Volcano Atlantean",
+      "bestiaryNumber": 166,
+      "hp": 150,
+      "power": 35,
+      "speed": 50,
+      "xp": 8.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "The Reaper",
+      "bestiaryNumber": 167,
+      "hp": 1000,
+      "power": 100,
+      "speed": 30,
+      "xp": 50.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "Boss",
+      "variant": null
+    },
+    {
+      "name": "Mimic Season One",
+      "bestiaryNumber": 168,
+      "hp": 50,
+      "power": 15,
+      "speed": 60,
+      "xp": 3.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Event",
+      "spawnType": "-",
+      "notes": "Chest Mimic",
+      "variant": null
+    },
+    {
+      "name": "Mimic Season Two",
+      "bestiaryNumber": 169,
+      "hp": 80,
+      "power": 20,
+      "speed": 60,
+      "xp": 4.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Event",
+      "spawnType": "-",
+      "notes": "Chest Mimic",
+      "variant": null
+    },
+    {
+      "name": "Mimic Season Three",
+      "bestiaryNumber": 170,
+      "hp": 120,
+      "power": 30,
+      "speed": 60,
+      "xp": 6.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Event",
+      "spawnType": "-",
+      "notes": "Chest Mimic",
+      "variant": null
+    },
+    {
+      "name": "Tri-Anchors",
+      "bestiaryNumber": 171,
+      "hp": 200,
+      "power": 40,
+      "speed": 50,
+      "xp": 10.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "-",
+      "variant": null
+    },
+    {
+      "name": "LV128 Golden Bat",
+      "bestiaryNumber": 172,
+      "hp": 1,
+      "power": 1,
+      "speed": 0,
+      "xp": 0.0,
+      "foundIn": [
+        "Special"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "Instant Kill",
+      "variant": null
+    },
+    {
+      "name": "The Directer",
+      "bestiaryNumber": 173,
+      "hp": 500,
+      "power": 60,
+      "speed": 40,
+      "xp": 25.0,
+      "foundIn": [
+        "Eudaimonia Machine"
+      ],
+      "spawnMinute": "Special",
+      "spawnType": "-",
+      "notes": "Boss (Phase 2)",
+      "variant": null
+    }
+  ],
+  "evolutions": [
+    {
+      "baseWeapon": "Whip",
+      "evolvedWeapon": "Bloody Tear",
+      "requiredPassive": null,
+      "unlockCondition": "Unlocked by default",
+      "description": "Attacks horizontally, passes through enemies"
+    },
+    {
+      "baseWeapon": "Magic Wand",
+      "evolvedWeapon": "Holy Wand",
+      "requiredPassive": null,
+      "unlockCondition": "Find a Rosary",
+      "description": "Fires at the nearest enemy"
+    },
+    {
+      "baseWeapon": "Knife",
+      "evolvedWeapon": "Thousand Edge",
+      "requiredPassive": null,
+      "unlockCondition": "Unlocked by default",
+      "description": "Fires quickly in the faced direction"
+    },
+    {
+      "baseWeapon": "Axe",
+      "evolvedWeapon": "Death Spiral",
+      "requiredPassive": null,
+      "unlockCondition": "Unlocked by default",
+      "description": "High damage, high Area scaling"
+    },
+    {
+      "baseWeapon": "Cross",
+      "evolvedWeapon": "Heaven Sword",
+      "requiredPassive": null,
+      "unlockCondition": "Destroy 20 light sources",
+      "description": "Aims at nearest enemy, has boomerang effect"
+    },
+    {
+      "baseWeapon": "King Bible",
+      "evolvedWeapon": "Unholy Vespers",
+      "requiredPassive": null,
+      "unlockCondition": "Scales with all stat bonuses. Best with Speed, Duration, and Area",
+      "description": "Orbits around the character"
+    },
+    {
+      "baseWeapon": "Fire Wand",
+      "evolvedWeapon": "Hellfire",
+      "requiredPassive": null,
+      "unlockCondition": "Destroy 20 light sources",
+      "description": "Fires at a random enemy, deals heavy damage"
+    },
+    {
+      "baseWeapon": "Garlic",
+      "evolvedWeapon": "Soul Eater",
+      "requiredPassive": null,
+      "unlockCondition": "Consume 5 Floor Chickens",
+      "description": "Damages nearby enemies. Reduces resistance to knockback and freeze"
+    },
+    {
+      "baseWeapon": "Santa Water",
+      "evolvedWeapon": "La Borra",
+      "requiredPassive": null,
+      "unlockCondition": "Unlocked by default",
+      "description": "Generates damaging zones"
+    },
+    {
+      "baseWeapon": "Runetracer",
+      "evolvedWeapon": "NO FUTURE",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 5 minutes with Pasqualina",
+      "description": "Passes through enemies, bounces around"
+    },
+    {
+      "baseWeapon": "Lightning Ring",
+      "evolvedWeapon": "Thunder Loop",
+      "requiredPassive": null,
+      "unlockCondition": "Defeat a total of 5,000 enemies",
+      "description": "Strikes at random enemies"
+    },
+    {
+      "baseWeapon": "Pentagram",
+      "evolvedWeapon": "Gorgeous Moon",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 20 minutes with any character",
+      "description": "Erases everything in sight"
+    },
+    {
+      "baseWeapon": "Peachone",
+      "evolvedWeapon": "Vandalier",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 10 minutes with any character",
+      "description": "Bombards in a circling zone (clockwise)"
+    },
+    {
+      "baseWeapon": "Ebony Wings",
+      "evolvedWeapon": "Vandalier",
+      "requiredPassive": null,
+      "unlockCondition": "Get Peachone to Level 7",
+      "description": "Bombards in a circling zone (counterclockwise)"
+    },
+    {
+      "baseWeapon": "Phiera Der Tuphello",
+      "evolvedWeapon": "Phieraggi",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 10 minutes with Pugnala",
+      "description": "Fires quickly in four fixed directions"
+    },
+    {
+      "baseWeapon": "Eight The Sparrow",
+      "evolvedWeapon": "Phieraggi",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Pugnala",
+      "description": "Fires quickly in four fixed directions"
+    },
+    {
+      "baseWeapon": "Gatti Amari",
+      "evolvedWeapon": "Vicious Hunger",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Giovanna",
+      "description": "Summons capricious projectiles. May interact with pickups"
+    },
+    {
+      "baseWeapon": "Song of Mana",
+      "evolvedWeapon": "Mannajja",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Poppea",
+      "description": "Attacks vertically, passes through enemies"
+    },
+    {
+      "baseWeapon": "Shadow Pinion",
+      "evolvedWeapon": "Valkyrie Turner",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Concetta",
+      "description": "Generating damaging zones when moving, strikes when stopping"
+    },
+    {
+      "baseWeapon": "Clock Lancet",
+      "evolvedWeapon": "Infinite Corridor",
+      "requiredPassive": null,
+      "unlockCondition": "Find an Orologion",
+      "description": "Chance to freeze enemies in time"
+    },
+    {
+      "baseWeapon": "Laurel",
+      "evolvedWeapon": "Crimson Shroud",
+      "requiredPassive": null,
+      "unlockCondition": "Unlocked by default",
+      "description": "Shields from damage while active"
+    },
+    {
+      "baseWeapon": "Vento Sacro",
+      "evolvedWeapon": "Fuwalafuwaloo",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Zi'Assunta",
+      "description": "Stronger with continuous movement. Can deal critical damage"
+    },
+    {
+      "baseWeapon": "Bone",
+      "evolvedWeapon": "Anima of Mortaccio",
+      "requiredPassive": null,
+      "unlockCondition": "Start with Mortaccio",
+      "description": "Throws a bouncing projectile"
+    },
+    {
+      "baseWeapon": "Cherry Bomb",
+      "evolvedWeapon": "Yatta Daikarin",
+      "requiredPassive": null,
+      "unlockCondition": "Start with Yatta Cavallo",
+      "description": "Throws a bouncing projectile that explodes after some time"
+    },
+    {
+      "baseWeapon": "Carréllo",
+      "evolvedWeapon": "Carozza!",
+      "requiredPassive": null,
+      "unlockCondition": "Start with Bianca Ramba",
+      "description": "Throws a bouncing projectile. Number of bounces affected by Amount"
+    },
+    {
+      "baseWeapon": "Celestial Dusting",
+      "evolvedWeapon": "Profusione D'Amore",
+      "requiredPassive": null,
+      "unlockCondition": "Start with O'Sole Meeo",
+      "description": "Throws a bouncing projectile. Cooldown reduces when moving"
+    },
+    {
+      "baseWeapon": "La Robba",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Start with Sir Ambrojoe",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Greatest Jubilee",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Complete Eudaimonia Machine after Endless+Inverse runs",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Bracelet",
+      "evolvedWeapon": "Bi-Bracelet",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 30 minutes with Gallo or Divano",
+      "description": "Fires three projectiles at a random enemy"
+    },
+    {
+      "baseWeapon": "Candybox",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Discover every standard evolution and union",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Pako Battiliar",
+      "evolvedWeapon": "Mazo Familiar",
+      "requiredPassive": null,
+      "unlockCondition": "Defeat 61,616 bats",
+      "description": "May retaliate when losing health"
+    },
+    {
+      "baseWeapon": "Ammo Appalate",
+      "evolvedWeapon": "Gunastrophe",
+      "requiredPassive": null,
+      "unlockCondition": "Defeat 251,096 shooting enemies",
+      "description": "Aims at an enemy in the faced direction. Stockpiles projectiles when enemies are out of range"
+    },
+    {
+      "baseWeapon": "Victory Sword",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Defeat 100,000 enemies in a single run with Sigma",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Flames of Misspell",
+      "evolvedWeapon": "Ashes of Muspell",
+      "requiredPassive": null,
+      "unlockCondition": "Unlock Avatar Infernas",
+      "description": "Emits cones of flames"
+    },
+    {
+      "baseWeapon": "Chaos Rune",
+      "evolvedWeapon": "Wicked Ruler",
+      "requiredPassive": null,
+      "unlockCondition": "Cast the spell guinigigi",
+      "description": "Speed and Duration affect the number of hit boxes instead"
+    },
+    {
+      "baseWeapon": "Glass Fandango",
+      "evolvedWeapon": "Celestial Voulge",
+      "requiredPassive": null,
+      "unlockCondition": "Find in Whiteout and get to Level 7",
+      "description": "Stronger with movement, Orologions, and against frozen enemies"
+    },
+    {
+      "baseWeapon": "Santa Javelin",
+      "evolvedWeapon": "Seraphic Cry",
+      "requiredPassive": null,
+      "unlockCondition": "Get Santa Javelin to Level 7",
+      "description": "Duration affects Amount. Can deal critical damage"
+    },
+    {
+      "baseWeapon": "Gaze of Gaea",
+      "evolvedWeapon": "Embrace of Gaea",
+      "requiredPassive": null,
+      "unlockCondition": "Defeat 0 enemies in The Coop",
+      "description": "Might Defang enemies"
+    },
+    {
+      "baseWeapon": "Magi-Stone",
+      "evolvedWeapon": "Kyra-Stones",
+      "requiredPassive": null,
+      "unlockCondition": "Get Magi-Stone to Level 7",
+      "description": "Deals fixed damage based on Weapon Level"
+    },
+    {
+      "baseWeapon": "Phas3r",
+      "evolvedWeapon": "Photonstorm",
+      "requiredPassive": null,
+      "unlockCondition": "Get Phas3r to Level 7",
+      "description": "Generates thin damaging zones. High Amount scaling"
+    },
+    {
+      "baseWeapon": "Arma Dio",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Find in game",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Silver Wind",
+      "evolvedWeapon": "Festive Winds",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Miang Moonspell",
+      "description": "Defeated enemies might drop hearts"
+    },
+    {
+      "baseWeapon": "Four Seasons",
+      "evolvedWeapon": "Godai Shuffle",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Menya Moonspell",
+      "description": "Generates 4 explosions. Amount and Duration affect damage instead"
+    },
+    {
+      "baseWeapon": "Summon Night",
+      "evolvedWeapon": "Echo Night",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Syuuto Moonspell",
+      "description": "Generates damaging zones above the character"
+    },
+    {
+      "baseWeapon": "Mirage Robe",
+      "evolvedWeapon": "J'Odore",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Babi-Onna",
+      "description": "Generates freezing static projectiles with a chance to explode"
+    },
+    {
+      "baseWeapon": "Night Sword",
+      "evolvedWeapon": "Muramasa",
+      "requiredPassive": null,
+      "unlockCondition": "Find in Mt.Moonspell",
+      "description": "Retaliates with bonus damage affected by Greed. Might steal hearts"
+    },
+    {
+      "baseWeapon": "Mille Bolle Blu",
+      "evolvedWeapon": "Boo Roo Boolle",
+      "requiredPassive": null,
+      "unlockCondition": "Start with Gav'Et-Oni",
+      "description": "Fires lingering projectiles"
+    },
+    {
+      "baseWeapon": "108 Bocce",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with McCoy-Oni",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "SpellString",
+      "evolvedWeapon": "SpellStrom",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Eleanor Foscari",
+      "description": "Strikes at nearby enemies. Damage multiplied by Speed"
+    },
+    {
+      "baseWeapon": "SpellStream",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Get SpellStream to Level 6",
+      "description": "(No evolution — already evolved from SpellString)"
+    },
+    {
+      "baseWeapon": "SpellStrike",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Get SpellStrike to Level 6",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Eskizzibur",
+      "evolvedWeapon": "Legionnaire",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Maruto Cuts",
+      "description": "Attacks nearby enemies. Retaliates"
+    },
+    {
+      "baseWeapon": "Flash Arrow",
+      "evolvedWeapon": "Millionaire",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Keitha Muort",
+      "description": "Can deal critical damage. Amount affects damage instead"
+    },
+    {
+      "baseWeapon": "Prismatic Missile",
+      "evolvedWeapon": "Luminaire",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Luminaire Foscari",
+      "description": "Generates explosions around character. Affected by first chosen Arcana"
+    },
+    {
+      "baseWeapon": "Shadow Servant",
+      "evolvedWeapon": "Ophion",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Genevieve Gruyère",
+      "description": "Has a chance to slow enemies down"
+    },
+    {
+      "baseWeapon": "Party Popper",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Start with Rottin'Ghoul",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Report!",
+      "evolvedWeapon": "Emergency Meeting",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Crewmate Dino",
+      "description": "Damages enemies and pushes them away"
+    },
+    {
+      "baseWeapon": "Lucky Swipe",
+      "evolvedWeapon": "Crossed Wires",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Engineer Gino",
+      "description": "Amount of Luck is affected by Amount and by low Luck"
+    },
+    {
+      "baseWeapon": "Lifesign Scan",
+      "evolvedWeapon": "Paranormal Scan",
+      "requiredPassive": null,
+      "unlockCondition": "Get Lifesign Scan to Level 7",
+      "description": "Restores HP based on Amount and Recovery"
+    },
+    {
+      "baseWeapon": "Just Vent",
+      "evolvedWeapon": "Unjust Ejection",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Shapeshifter Nino",
+      "description": "Destroys or heavily damages enemies. Amount affects how many times it can trigger"
+    },
+    {
+      "baseWeapon": "Clear Debris",
+      "evolvedWeapon": "Clear Asteroids",
+      "requiredPassive": null,
+      "unlockCondition": "Reach Level 50 with Guardian Pina",
+      "description": "Generates projectile spawning zones that follow the player"
+    },
+    {
+      "baseWeapon": "Sharp Tongue",
+      "evolvedWeapon": "Impostongue",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Impostor Rina",
+      "description": "Strikes enemies in front of you. Damage multiplied by Recovery"
+    },
+    {
+      "baseWeapon": "Science Rocks",
+      "evolvedWeapon": "Rocket Science",
+      "requiredPassive": null,
+      "unlockCondition": "Reach Level 50 with Scientist Mina",
+      "description": "Generates zones that explode when touched. Amount affects number of explosion clusters"
+    },
+    {
+      "baseWeapon": "Hats",
+      "evolvedWeapon": null,
+      "requiredPassive": null,
+      "unlockCondition": "Start with Horse",
+      "description": "(No evolution)"
+    },
+    {
+      "baseWeapon": "Long Gun",
+      "evolvedWeapon": "Prototype A",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Bill Rizer",
+      "description": "Fires constantly in the faced direction"
+    },
+    {
+      "baseWeapon": "Short Gun",
+      "evolvedWeapon": "Prototype B",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Lance Bean",
+      "description": "Fires bursts of decaying projectiles horizontally"
+    },
+    {
+      "baseWeapon": "Spread Shot",
+      "evolvedWeapon": "Prototype C",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Ariana",
+      "description": "Fires in a wide spread in the faced direction"
+    },
+    {
+      "baseWeapon": "C-U-Laser",
+      "evolvedWeapon": "Pronto Beam",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Lucia Zero",
+      "description": "Fires a piercing projectile in the faced direction"
+    },
+    {
+      "baseWeapon": "Firearm",
+      "evolvedWeapon": "Fire-L3GS",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Brad Fang",
+      "description": "Fires spinning projectiles at the nearest enemy"
+    },
+    {
+      "baseWeapon": "Sonic Bloom",
+      "evolvedWeapon": "Wave Beam",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Browny,Fires growing projectiles in the faced direction\"",
+      "description": ""
+    },
+    {
+      "baseWeapon": "Homing Miss",
+      "evolvedWeapon": "Multistage Missiles",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Stanley",
+      "description": "Fires exploding projectiles that home in on enemies"
+    },
+    {
+      "baseWeapon": "Diver Mines",
+      "evolvedWeapon": "Atmo-Torpedo",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Newt Plissken",
+      "description": "Fires explosive projectiles that travel along walls"
+    },
+    {
+      "baseWeapon": "Blade Crossbow",
+      "evolvedWeapon": "BFC2000-AD",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Sheena Etranzi",
+      "description": "Fires homing projectiles that spin in place when they hit"
+    },
+    {
+      "baseWeapon": "Prism Lass",
+      "evolvedWeapon": "Time Warp",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Probotector",
+      "description": "Has a small chance to freeze enemies"
+    },
+    {
+      "baseWeapon": "Metal Claw",
+      "evolvedWeapon": "Big Fuzzy Fist",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 15 minutes with Colonel Bahamut",
+      "description": "Cooldown is affected by missing health"
+    },
+    {
+      "baseWeapon": "Alchemy Whip",
+      "evolvedWeapon": "Vampire Killer",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 6 minutes with Leon Belmont",
+      "description": "Grows stronger every time a boss enemy is defeated"
+    },
+    {
+      "baseWeapon": "Wind Whip",
+      "evolvedWeapon": "Spirit Tornado Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 12 minutes with Simon Belmont",
+      "description": "Damage affected by growth"
+    },
+    {
+      "baseWeapon": "Platinum Whip",
+      "evolvedWeapon": "Cross Crasher Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 18 minutes with Richter Belmont",
+      "description": "Every 3rd activation fires projectiles in fixed directions"
+    },
+    {
+      "baseWeapon": "Dragon Water Whip",
+      "evolvedWeapon": "Hydrostormer Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 10 minutes with Trevor Belmont",
+      "description": "Every 7th activation fires a snaking dragon projectile"
+    },
+    {
+      "baseWeapon": "Sonic Whip",
+      "evolvedWeapon": "Crissaegrim Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 8 minutes with Sonia Belmont",
+      "description": "Chance to instant kill based on curse"
+    },
+    {
+      "baseWeapon": "Jet Black Whip",
+      "evolvedWeapon": "Mormegil Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 14 minutes with Christopher Belmont,Strikes at nearest enemy and generates linear damaging zone\"",
+      "description": ""
+    },
+    {
+      "baseWeapon": "Vibhuti Whip",
+      "evolvedWeapon": "Daybreaker Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 16 minutes with Juste Belmont",
+      "description": "Strikes nearest enemy and generates a cluster of explosions"
+    },
+    {
+      "baseWeapon": "Vanitas Whip",
+      "evolvedWeapon": "Aurablaster Tip",
+      "requiredPassive": null,
+      "unlockCondition": "Survive 20 minutes with Julius Belmont,Strikes nearest enemy and generates perpendicular damaging zone. Zone damage affected by MaxHealth\"",
+      "description": ""
+    },
+    {
+      "baseWeapon": "Shuriken",
+      "evolvedWeapon": "Yagyu Shuriken",
+      "requiredPassive": null,
+      "unlockCondition": "Get Shuriken to Level 2 (Ode to Castlevania DLC)",
+      "description": "Fires projectiles in the faced direction"
+    },
+    {
+      "baseWeapon": "Curved Knife",
+      "evolvedWeapon": "Bwaka Knife",
+      "requiredPassive": null,
+      "unlockCondition": "Get Curved Knife to Level 1 (Ode to Castlevania DLC)",
+      "description": "Fires a spinning projectile at random enemy"
+    },
+    {
+      "baseWeapon": "Javelin",
+      "evolvedWeapon": "Long Inus",
+      "requiredPassive": null,
+      "unlockCondition": "Get Javelin to Level 3 (Ode to Castlevania DLC)",
+      "description": "Fires a penetrating projectile in a fixed direction"
+    },
+    {
+      "baseWeapon": "Discus",
+      "evolvedWeapon": "Throwing Boomerang",
+      "requiredPassive": null,
+      "unlockCondition": "Get Discus to Level 1 (Ode to Castlevania DLC)",
+      "description": "Fires a defensive projectile"
+    }
+  ],
+  "arcanas": [
+    {
+      "name": "Game Killer",
+      "romanNumeral": "0",
+      "type": "Arcana",
+      "effect": "All treasure chests always contain at least 3 rewards. Arcana Chests contain 2 additional chest rewards.",
+      "unlockMethod": "Type code \"aintnobodygottimeforthat\" on main menu"
+    },
+    {
+      "name": "Gemini",
+      "romanNumeral": "I",
+      "type": "Arcana",
+      "effect": "Spawns a clone that mirrors your movement and attacks.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Twilight Requiem",
+      "romanNumeral": "II",
+      "type": "Arcana",
+      "effect": "Killed enemies explode dealing area damage.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Tragic Princess",
+      "romanNumeral": "III",
+      "type": "Arcana",
+      "effect": "Attacks may poison enemies.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Awake",
+      "romanNumeral": "IV",
+      "type": "Arcana",
+      "effect": "Increases damage based on current health.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Chaos in the Dark Night",
+      "romanNumeral": "V",
+      "type": "Arcana",
+      "effect": "Increases damage for each enemy on screen (caps at +300%).",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Sarabande of Healing",
+      "romanNumeral": "VI",
+      "type": "Arcana",
+      "effect": "Small HP regeneration per second.",
+      "unlockMethod": "Obtain Randomazzo in Gallo Tower"
+    },
+    {
+      "name": "Iron Blue Will",
+      "romanNumeral": "VII",
+      "type": "Arcana",
+      "effect": "Immunity to freeze and curse.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Mad Groove",
+      "romanNumeral": "VIII",
+      "type": "Arcana",
+      "effect": "All items on the ground are attracted to you.",
+      "unlockMethod": "Reach minute 31 in any stage (or type code)"
+    },
+    {
+      "name": "Divine Bloodline",
+      "romanNumeral": "IX",
+      "type": "Arcana",
+      "effect": "Chest spawns doubled, better drops.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Beginning",
+      "romanNumeral": "X",
+      "type": "Arcana",
+      "effect": "Level up effect doubled.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Waltz of Pearls",
+      "romanNumeral": "XI",
+      "type": "Arcana",
+      "effect": "Increases gold pickup radius and magnet effect.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Out of Bounds",
+      "romanNumeral": "XII",
+      "type": "Arcana",
+      "effect": "Enemy spawn rate increased, more XP gems.",
+      "unlockMethod": "Reach minute 31 in any stage (or type code)"
+    },
+    {
+      "name": "Wicked Season",
+      "romanNumeral": "XIII",
+      "type": "Arcana",
+      "effect": "Damage increases as time passes.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Jail of Crystal",
+      "romanNumeral": "XIV",
+      "type": "Arcana",
+      "effect": "Chance to freeze enemies on hit.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Disco of Gold",
+      "romanNumeral": "XV",
+      "type": "Arcana",
+      "effect": "Enemies drop more gold.",
+      "unlockMethod": "Reach minute 31 in any stage (or type code)"
+    },
+    {
+      "name": "Slash",
+      "romanNumeral": "XVI",
+      "type": "Arcana",
+      "effect": "Chance for critical hit based on speed.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Lost and Found Painting",
+      "romanNumeral": "XVII",
+      "type": "Arcana",
+      "effect": "Revive once per run with 50% HP.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Boogaloo of Illusions",
+      "romanNumeral": "XVIII",
+      "type": "Arcana",
+      "effect": "Projectiles may split and bounce.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Heart of Fire",
+      "romanNumeral": "XIX",
+      "type": "Arcana",
+      "effect": "Fire damage over time to nearby enemies.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Silent Old Sanctuary",
+      "romanNumeral": "XX",
+      "type": "Arcana",
+      "effect": "Weapons gain bonus effects at max level.",
+      "unlockMethod": "Reach minute 31 in any stage (or type code)"
+    },
+    {
+      "name": "Blood Astronomia",
+      "romanNumeral": "XXI",
+      "type": "Arcana",
+      "effect": "Killing enemies may reduce cooldowns.",
+      "unlockMethod": "Reach level 50 with any character"
+    },
+    {
+      "name": "Stake to your Heart",
+      "romanNumeral": "0",
+      "type": "Darkana",
+      "effect": "Same as Game Killer (0) but stronger effect.",
+      "unlockMethod": "Obtain Darkasso + code \"darkassami\""
+    },
+    {
+      "name": "Sapphire Mist",
+      "romanNumeral": "I",
+      "type": "Darkana",
+      "effect": "Same as Gemini (I) but clone attacks too.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Hidden Anathema",
+      "romanNumeral": "III",
+      "type": "Darkana",
+      "effect": "Same as Tragic Princess (III) but poison spreads.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Pale Diamond Incursion",
+      "romanNumeral": "V",
+      "type": "Darkana",
+      "effect": "Same as Chaos in the Dark Night (V) but better scaling.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Moonlight Bolero",
+      "romanNumeral": "VI",
+      "type": "Darkana",
+      "effect": "Same as Sarabande of Healing (VI) but stronger.",
+      "unlockMethod": "Obtain Darkasso + code \"darkassami\""
+    },
+    {
+      "name": "Edge of the Earth",
+      "romanNumeral": "VIII",
+      "type": "Darkana",
+      "effect": "Same as Mad Groove (VIII) but items move faster.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Hail from the Future",
+      "romanNumeral": "X",
+      "type": "Darkana",
+      "effect": "Same as Beginning (X) but also extra XP.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Crystal Cries",
+      "romanNumeral": "XII",
+      "type": "Darkana",
+      "effect": "Same as Out of Bounds (XII) but also more luck.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Call of a Mad Moon",
+      "romanNumeral": "XIII",
+      "type": "Darkana",
+      "effect": "Same as Wicked Season (XIII) but starts stronger.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Victorian Horror",
+      "romanNumeral": "XVIII",
+      "type": "Darkana",
+      "effect": "Same as Boogaloo of Illusions (XVIII) but more bounces.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Heir of Fate",
+      "romanNumeral": "XIX",
+      "type": "Darkana",
+      "effect": "Same as Heart of Fire (XIX) but also damage shield.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    },
+    {
+      "name": "Wandering the Jet Black",
+      "romanNumeral": "XXI",
+      "type": "Darkana",
+      "effect": "Same as Blood Astronomia (XXI) but better proc rate.",
+      "unlockMethod": "Obtain Darkasso + level 50 with character"
+    }
+  ],
+  "relics": [
+    {
+      "name": "Grim Grimoire",
+      "dlcSet": "Base",
+      "effect": "Allows Stage Selection (choose which stage to play)",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Ars Gouda",
+      "dlcSet": "Base",
+      "effect": "All stages visible on map",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Milky Way Map",
+      "dlcSet": "Base",
+      "effect": "Allows access to the map to select stages",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Magic Banger",
+      "dlcSet": "Base",
+      "effect": "Increases pickup spawn rate",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Sorceress' Tears",
+      "dlcSet": "Base",
+      "effect": "Increases light source spawn rate",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Glass Wizard",
+      "dlcSet": "Base",
+      "effect": "Transforms weapons at level 5 into inverted versions",
+      "foundIn": "Gallo Tower (light source)"
+    },
+    {
+      "name": "Mindbender",
+      "dlcSet": "Base",
+      "effect": "Increases enemy spawn rate",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Yellow Sign",
+      "dlcSet": "Base",
+      "effect": "Unlocks 4 hidden passive items (Silver Ring",
+      "foundIn": "Gold Ring"
+    },
+    {
+      "name": "Forbidden Scrolls of Morbane",
+      "dlcSet": "Base",
+      "effect": "Unlocks secrets menu cheat codes",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Great Gospel",
+      "dlcSet": "Base",
+      "effect": "Unlocks Endless mode",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Gracia's Mirror",
+      "dlcSet": "Base",
+      "effect": "Unlocks Endless+Inverse mode",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Seventh Trumpet",
+      "dlcSet": "Base",
+      "effect": "Unlocks Boss Rash stage",
+      "foundIn": "Cappella Magna (light source)"
+    },
+    {
+      "name": "Randomazzo",
+      "dlcSet": "Base",
+      "effect": "Unlocks Arcana system",
+      "foundIn": "Gallo Tower (light source)"
+    },
+    {
+      "name": "Atlas Gate",
+      "dlcSet": "EXTRA",
+      "effect": "Unlocks Astral Stair stage",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Chaos Malachite",
+      "dlcSet": "EXTRA",
+      "effect": "Random stat boost to weapons at start",
+      "foundIn": "Il Molise (light source)"
+    },
+    {
+      "name": "Chaos Rosalia",
+      "dlcSet": "EXTRA",
+      "effect": "Random stat boost to passives at start",
+      "foundIn": "Il Molise (light source)"
+    },
+    {
+      "name": "Chaos Lazulia",
+      "dlcSet": "EXTRA",
+      "effect": "Random stat boost to weapons and passives at start",
+      "foundIn": "Il Molise (light source)"
+    },
+    {
+      "name": "Chaos Altemanna",
+      "dlcSet": "EXTRA",
+      "effect": "Random stat boost to Arcana at start",
+      "foundIn": "Il Molise (light source)"
+    },
+    {
+      "name": "Trisection",
+      "dlcSet": "EXTRA",
+      "effect": "Split projectiles become 3 instead of 2",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Brave Story",
+      "dlcSet": "EXTRA",
+      "effect": "Start at level 3 with 3 random weapons",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Masquerade",
+      "dlcSet": "EXTRA",
+      "effect": "Start with 3 random Arcana",
+      "foundIn": "Whiteout (light source)"
+    },
+    {
+      "name": "Apoplexy",
+      "dlcSet": "EXTRA",
+      "effect": "All weapons can proc at the same time",
+      "foundIn": "Gallo Tower (light source)"
+    },
+    {
+      "name": "Antidote",
+      "dlcSet": "EXTRA",
+      "effect": "Immunity to poison and freeze",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Wax Fetish",
+      "dlcSet": "EXTRA",
+      "effect": "Weapons gain bonus damage vs bosses",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Roast Chicken with a Clock in the Middle",
+      "dlcSet": "EXTRA",
+      "effect": "Start with 2 extra lives",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Green Eyes Wizard",
+      "dlcSet": "EXTRA",
+      "effect": "Weapons ignore enemy armor",
+      "foundIn": "Mt. Moonspell (light source)"
+    },
+    {
+      "name": "Astral Stair Map",
+      "dlcSet": "EXTRA",
+      "effect": "Unlocks Astral Stair map",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Survarocchi",
+      "dlcSet": "EXTRA",
+      "effect": "Reduces enemy knockback resistance",
+      "foundIn": "Whiteout (light source)"
+    },
+    {
+      "name": "Enemahs",
+      "dlcSet": "EXTRA",
+      "effect": "Increases enemy damage",
+      "foundIn": "Whiteout (light source)"
+    },
+    {
+      "name": "Darkasso",
+      "dlcSet": "EXTRA",
+      "effect": "Unlocks Darkana system",
+      "foundIn": "Room 1665 (south)"
+    },
+    {
+      "name": "Mt. Moonspell Map",
+      "dlcSet": "Legacy of the Moonspell",
+      "effect": "Unlocks Mt. Moonspell map",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Lake Foscari Map",
+      "dlcSet": "Tides of the Foscari",
+      "effect": "Unlocks Lake Foscari map",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Polus Replica Map",
+      "dlcSet": "Emergency Meeting",
+      "effect": "Unlocks Polus Replica map",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Neo Galuga Map",
+      "dlcSet": "Operation Guns",
+      "effect": "Unlocks Neo Galuga map",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Castlevania Map",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks Ode to Castlevania map",
+      "foundIn": "Gallo Tower (light source)"
+    },
+    {
+      "name": "Stallion Gate",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks Stallion Gate (endless stage)",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Scorpion Gate",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks Scorpion Gate",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Capra Gate",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks Capra Gate",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "King's Gate",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks King's Gate",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Serpent Gate",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks Serpent Gate",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Beast Gate",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks Beast Gate",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Black Disk",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks the Reaper boss fight",
+      "foundIn": "Mad Forest (light source)"
+    },
+    {
+      "name": "Wood Carving Score",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks random character at start",
+      "foundIn": "Gallo Tower (light source)"
+    },
+    {
+      "name": "Pile of Secrets",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks 3 random Arcana",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Ebony and Crimson Stones",
+      "dlcSet": "Ode to Castlevania",
+      "effect": "Unlocks 2 secret characters (Leon + Julius)",
+      "foundIn": "Inlaid Library (light source)"
+    },
+    {
+      "name": "Emerald Disk",
+      "dlcSet": "Emerald Diorama",
+      "effect": "Unlocks Emerald Diorama map",
+      "foundIn": "Dairy Plant (light source)"
+    },
+    {
+      "name": "Joker Disk",
+      "dlcSet": "Ante Chamber",
+      "effect": "Unlocks Ante Chamber map",
+      "foundIn": "Dairy Plant (light source)"
+    }
+  ],
+  "stages": [
+    {
+      "name": "Mad Forest",
+      "stageNumber": "1",
+      "timeLimit": "30:00",
+      "description": "Classic gothic forest stage. Great starting area.",
+      "enemyPool": [
+        "Skeleton"
+      ],
+      "coffinCharacter": "Zombie",
+      "relicDrop": "Ghost"
+    },
+    {
+      "name": "Inlaid Library",
+      "stageNumber": "2",
+      "timeLimit": "30:00",
+      "description": "Library with books and knowledge. Medium difficulty.",
+      "enemyPool": [
+        "Lionhead"
+      ],
+      "coffinCharacter": "Sig.ra Rossi",
+      "relicDrop": "Hag"
+    },
+    {
+      "name": "Dairy Plant",
+      "stageNumber": "3",
+      "timeLimit": "30:00",
+      "description": "Abandoned dairy factory. Many industrial enemies.",
+      "enemyPool": [
+        "Lizard Pawn"
+      ],
+      "coffinCharacter": "Twin Snakes",
+      "relicDrop": "Lizard Rook"
+    },
+    {
+      "name": "Gallo Tower",
+      "stageNumber": "4",
+      "timeLimit": "30:00",
+      "description": "Tall tower with aerial enemies and robed mages.",
+      "enemyPool": [
+        "Skullino"
+      ],
+      "coffinCharacter": "Skulorosso",
+      "relicDrop": "Scarleton"
+    },
+    {
+      "name": "Il Molise",
+      "stageNumber": "5",
+      "timeLimit": "30:00",
+      "description": "Rural Italian countryside. Easy stage.",
+      "enemyPool": [
+        "Happy Molisano"
+      ],
+      "coffinCharacter": "Cute Molisano",
+      "relicDrop": "Old Molisano"
+    },
+    {
+      "name": "Whiteout",
+      "stageNumber": "6",
+      "timeLimit": "30:00",
+      "description": "Snowy frozen stage with ice-themed enemies.",
+      "enemyPool": [
+        "Miragellos"
+      ],
+      "coffinCharacter": "Menta Elemental",
+      "relicDrop": "Madd-Onna"
+    },
+    {
+      "name": "Laborratory",
+      "stageNumber": "7",
+      "timeLimit": "30:00",
+      "description": "High-tech laboratory with circuit-themed enemies.",
+      "enemyPool": [
+        "Bounty Hunter"
+      ],
+      "coffinCharacter": "Space Hunter",
+      "relicDrop": "Tri-Blunder"
+    },
+    {
+      "name": "Westwood",
+      "stageNumber": "8",
+      "timeLimit": "30:00",
+      "description": "Overgrown ruins with plant and gold-themed enemies.",
+      "enemyPool": [
+        "Skelegem"
+      ],
+      "coffinCharacter": "Gold Pile",
+      "relicDrop": "Gold Jellys"
+    },
+    {
+      "name": "The Coop",
+      "stageNumber": "9",
+      "timeLimit": "30:00",
+      "description": "Chicken coop with chicken enemies. 0 enemy kills unlocks Gaze of Gaea evolution.",
+      "enemyPool": [
+        "Cockreliutennant"
+      ],
+      "coffinCharacter": "Chik",
+      "relicDrop": "Egge"
+    },
+    {
+      "name": "Space 54",
+      "stageNumber": "10",
+      "timeLimit": "30:00",
+      "description": "Outer space station with alien enemies.",
+      "enemyPool": [
+        "Moon Rabbit"
+      ],
+      "coffinCharacter": "Moon Duck",
+      "relicDrop": "Space Ant Onion"
+    },
+    {
+      "name": "The Bone Zone",
+      "stageNumber": "11",
+      "timeLimit": "30:00",
+      "description": "Bone-filled hellscape. Endless skeleton enemies. Good for farming XP and骨头.",
+      "enemyPool": [
+        "Skeleton Panther"
+      ],
+      "coffinCharacter": "Giant Skeleton",
+      "relicDrop": "Skeletone"
+    },
+    {
+      "name": "Moongolow",
+      "stageNumber": "12",
+      "timeLimit": "30:00",
+      "description": "Moonlit ruins with Atlantean-themed enemies.",
+      "enemyPool": [
+        "Serpentvine"
+      ],
+      "coffinCharacter": "Garlic (enemy)",
+      "relicDrop": "Nightshade"
+    },
+    {
+      "name": "Cappella Magna",
+      "stageNumber": "13",
+      "timeLimit": "30:00",
+      "description": "Final cathedral stage. Extremely difficult. Heavy demon and angel enemies.",
+      "enemyPool": [
+        "Reaper Trainee"
+      ],
+      "coffinCharacter": "Tetrabrachia",
+      "relicDrop": "Archon Fiamma"
+    },
+    {
+      "name": "Astral Stair",
+      "stageNumber": "14",
+      "timeLimit": "30:00",
+      "description": "Psychedelic stairway to infinity. Cosmic and astral-themed enemies.",
+      "enemyPool": [
+        "Astral Chair"
+      ],
+      "coffinCharacter": "Astral Curtain",
+      "relicDrop": "Undead Stars"
+    },
+    {
+      "name": "Mazerella",
+      "stageNumber": "15",
+      "timeLimit": "30:00",
+      "description": "Dairy-themed stage with Torino enemies. Boss-heavy.",
+      "enemyPool": [
+        "Joyatauro"
+      ],
+      "coffinCharacter": "AccumulaTori (boss)",
+      "relicDrop": "17th Collossus (boss)"
+    },
+    {
+      "name": "Room 1665",
+      "stageNumber": "16",
+      "timeLimit": "30:00",
+      "description": "Deep dungeon with Darkasso enemies. 5-stage endless mode.",
+      "enemyPool": [
+        "Juda R'kasso"
+      ],
+      "coffinCharacter": "Foo'Ori Darkasso",
+      "relicDrop": "Shendi Darkasso"
+    },
+    {
+      "name": "Boss Rash",
+      "stageNumber": "Boss Stage",
+      "timeLimit": "15:00",
+      "description": "Boss rush mode. Fight bosses back-to-back.",
+      "enemyPool": [
+        "Varies"
+      ],
+      "coffinCharacter": "-",
+      "relicDrop": "-"
+    },
+    {
+      "name": "Bat Country",
+      "stageNumber": "Boss Stage",
+      "timeLimit": "15:00",
+      "description": "Bat-themed boss rush.",
+      "enemyPool": [
+        "Varies"
+      ],
+      "coffinCharacter": "-",
+      "relicDrop": "-"
+    },
+    {
+      "name": "Tiny Bridge",
+      "stageNumber": "Boss Stage",
+      "timeLimit": "15:00",
+      "description": "Mini boss rush with varied enemies.",
+      "enemyPool": [
+        "Varies"
+      ],
+      "coffinCharacter": "-",
+      "relicDrop": "-"
+    },
+    {
+      "name": "Eudaimonia Machine",
+      "stageNumber": "Special",
+      "timeLimit": "Infinite",
+      "description": "Endless mode stage. The Directer boss fight in Phase 2.",
+      "enemyPool": [
+        "Skeleton"
+      ],
+      "coffinCharacter": "Ghost",
+      "relicDrop": "Pipeestrello"
+    },
+    {
+      "name": "Mt. Moonspell",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Moonspell mountain with werewolf and moon-themed enemies.",
+      "enemyPool": [
+        "Miragellos"
+      ],
+      "coffinCharacter": "Kizzune",
+      "relicDrop": "Madd-Onna"
+    },
+    {
+      "name": "Lake Foscari",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Lake stage with aquatic and fancy-themed enemies.",
+      "enemyPool": [
+        "Reaper Trainee"
+      ],
+      "coffinCharacter": "Demon Priest",
+      "relicDrop": "Succubus"
+    },
+    {
+      "name": "Polus Replica",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Among Us themed space station.",
+      "enemyPool": [
+        "Space Hunter"
+      ],
+      "coffinCharacter": "Tri-Blunder",
+      "relicDrop": "Sinistronz"
+    },
+    {
+      "name": "Neo Galuga",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Green jungle ruins with updated enemy types.",
+      "enemyPool": [
+        "Space Ant Onion"
+      ],
+      "coffinCharacter": "Space Pickle",
+      "relicDrop": "ECMASlime"
+    },
+    {
+      "name": "Hectic Highway",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Endless highway with vehicle-themed enemies.",
+      "enemyPool": [
+        "Space Hunter"
+      ],
+      "coffinCharacter": "Tri-Blunder",
+      "relicDrop": "Sinistronz"
+    },
+    {
+      "name": "Ode to Castlevania",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Castlevania-themed stage with Castlevania enemies and 3 coffins.",
+      "enemyPool": [
+        "Undead Mage"
+      ],
+      "coffinCharacter": "Undead Witch",
+      "relicDrop": "Archon Oro"
+    },
+    {
+      "name": "Emerald Diorama",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Gem-themed diorama stage.",
+      "enemyPool": [
+        "Miragellos"
+      ],
+      "coffinCharacter": "Kizzune",
+      "relicDrop": "-"
+    },
+    {
+      "name": "Ante Chamber",
+      "stageNumber": "DLC",
+      "timeLimit": "30:00",
+      "description": "Small mysterious chamber with card-themed enemies.",
+      "enemyPool": [
+        "Card Sharp"
+      ],
+      "coffinCharacter": "Barm",
+      "relicDrop": "Gamblin"
+    }
+  ],
+  "powerUps": [
+    {
+      "name": "Mighty Mango",
+      "statAffected": "Max Health",
+      "perPickup": "+10 HP",
+      "perLevel": "+1 HP",
+      "description": "Increases maximum HP"
+    },
+    {
+      "name": "Whimberry",
+      "statAffected": "Max Health",
+      "perPickup": "+20 HP",
+      "perLevel": "+2 HP",
+      "description": "Increases maximum HP significantly"
+    },
+    {
+      "name": "Strawing",
+      "statAffected": "Max Health",
+      "perPickup": "+50 HP",
+      "perLevel": "+5 HP",
+      "description": "Greatly increases maximum HP"
+    },
+    {
+      "name": "Mighty Cherry",
+      "statAffected": "Max Health",
+      "perPickup": "+10 HP",
+      "perLevel": "+1 HP",
+      "description": "Increases maximum HP"
+    },
+    {
+      "name": "Coffee",
+      "statAffected": "Move Speed",
+      "perPickup": "+10%",
+      "perLevel": "+1%",
+      "description": "Increases movement speed"
+    },
+    {
+      "name": "Bitter Coffee",
+      "statAffected": "Move Speed",
+      "perPickup": "+15%",
+      "perLevel": "+2%",
+      "description": "Increases movement speed significantly"
+    },
+    {
+      "name": "Rosary",
+      "statAffected": "Damage",
+      "perPickup": "+10%",
+      "perLevel": "+1%",
+      "description": "Increases damage dealt to enemies"
+    },
+    {
+      "name": "Floor Chicken",
+      "statAffected": "Recovery",
+      "perPickup": "+0.1/s",
+      "perLevel": "+0.01/s",
+      "description": "Provides passive HP regeneration"
+    },
+    {
+      "name": "Nduja",
+      "statAffected": "Damage",
+      "perPickup": "+10%",
+      "perLevel": "+1%",
+      "description": "Increases damage"
+    },
+    {
+      "name": "Crown of Dust",
+      "statAffected": "Damage",
+      "perPickup": "+10%",
+      "perLevel": "+1%",
+      "description": "Increases damage"
+    },
+    {
+      "name": "Orologion",
+      "statAffected": "Cooldown",
+      "perPickup": "-5%",
+      "perLevel": "-0.5%",
+      "description": "Reduces all weapon cooldowns"
+    },
+    {
+      "name": "Briser",
+      "statAffected": "Cooldown",
+      "perPickup": "-10%",
+      "perLevel": "-1%",
+      "description": "Greatly reduces cooldowns"
+    },
+    {
+      "name": "Armor",
+      "statAffected": "Armor",
+      "perPickup": "+1",
+      "perLevel": "+0.1",
+      "description": "Reduces incoming damage"
+    },
+    {
+      "name": "P那块",
+      "statAffected": "Armor",
+      "perPickup": "+2",
+      "perLevel": "+0.2",
+      "description": "Significantly reduces incoming damage"
+    },
+    {
+      "name": "Pocket Watch",
+      "statAffected": "Duration",
+      "perPickup": "+5%",
+      "perLevel": "+0.5%",
+      "description": "Extends weapon effect duration"
+    },
+    {
+      "name": "Bracelet",
+      "statAffected": "Projectile Speed",
+      "perPickup": "+5%",
+      "perLevel": "+0.5%",
+      "description": "Increases projectile speed"
+    },
+    {
+      "name": "Duplicator",
+      "statAffected": "Amount",
+      "perPickup": "+1",
+      "perLevel": "+0.1",
+      "description": "Adds extra projectiles"
+    },
+    {
+      "name": "Onigiri",
+      "statAffected": "Max Health + Recovery",
+      "perPickup": "+5 HP + 0.05/s",
+      "perLevel": "+0.5 HP + 0.005/s",
+      "description": "Hybrid pickup for survivability"
+    },
+    {
+      "name": "Gold",
+      "statAffected": "Gold",
+      "perPickup": "+1 to +100",
+      "perLevel": "+0.1",
+      "description": "Currency for shops and upgrades"
+    }
+  ],
+  "pickups": [
+    {
+      "name": "Gold",
+      "rarity": 100,
+      "unlockLevel": 1,
+      "effect": "Currency",
+      "notes": "Basic gold drops"
+    },
+    {
+      "name": "Big Gold",
+      "rarity": 200,
+      "unlockLevel": 1,
+      "effect": "+100 gold",
+      "notes": "Rare gold drop"
+    },
+    {
+      "name": "Rich Gold",
+      "rarity": 500,
+      "unlockLevel": 1,
+      "effect": "+500 gold",
+      "notes": "Very rare gold drop"
+    },
+    {
+      "name": "Floor Chicken",
+      "rarity": 20,
+      "unlockLevel": 1,
+      "effect": "+1 HP",
+      "notes": "Heals"
+    },
+    {
+      "name": "Mighty Mango",
+      "rarity": 20,
+      "unlockLevel": 1,
+      "effect": "+10 HP",
+      "notes": "Medium health pickup"
+    },
+    {
+      "name": "Whimberry",
+      "rarity": 15,
+      "unlockLevel": 1,
+      "effect": "+20 HP",
+      "notes": "Good health pickup"
+    },
+    {
+      "name": "Strawing",
+      "rarity": 5,
+      "unlockLevel": 1,
+      "effect": "+50 HP",
+      "notes": "Rare large health pickup"
+    },
+    {
+      "name": "Roast Chicken",
+      "rarity": 10,
+      "unlockLevel": 5,
+      "effect": "+30 HP + brief invulnerability",
+      "notes": "Chainable for extended invulnerability"
+    },
+    {
+      "name": "Coffee",
+      "rarity": 20,
+      "unlockLevel": 3,
+      "effect": "+10% Move Speed for 10s",
+      "notes": "Speed boost"
+    },
+    {
+      "name": "Bitter Coffee",
+      "rarity": 15,
+      "unlockLevel": 7,
+      "effect": "+15% Move Speed for 15s",
+      "notes": "Longer speed boost"
+    },
+    {
+      "name": "Duplicator",
+      "rarity": 10,
+      "unlockLevel": 5,
+      "effect": "+1 projectile to all weapons",
+      "notes": "Permanent for the run"
+    },
+    {
+      "name": "Bberra",
+      "rarity": 15,
+      "unlockLevel": 6,
+      "effect": "+20% Area for 10s",
+      "notes": "Area boost"
+    },
+    {
+      "name": "Bracelet",
+      "rarity": 15,
+      "unlockLevel": 6,
+      "effect": "+20% projectile speed for 10s",
+      "notes": "Projectile speed boost"
+    },
+    {
+      "name": "Nduja",
+      "rarity": 20,
+      "unlockLevel": 3,
+      "effect": "+10% damage for 10s",
+      "notes": "Damage boost"
+    },
+    {
+      "name": "Rosary",
+      "rarity": 15,
+      "unlockLevel": 5,
+      "effect": "+15% damage permanently",
+      "notes": "One of the best pickups"
+    },
+    {
+      "name": "Armor",
+      "rarity": 10,
+      "unlockLevel": 8,
+      "effect": "+1 armor permanently",
+      "notes": "Damage reduction"
+    },
+    {
+      "name": "P那块",
+      "rarity": 5,
+      "unlockLevel": 12,
+      "effect": "+2 armor permanently",
+      "notes": "High armor pickup"
+    },
+    {
+      "name": "Orologion",
+      "rarity": 15,
+      "unlockLevel": 8,
+      "effect": "-15% cooldown for 10s",
+      "notes": "Cooldown reduction"
+    },
+    {
+      "name": "Briser",
+      "rarity": 10,
+      "unlockLevel": 15,
+      "effect": "-20% cooldown for 20s",
+      "notes": "Long cooldown reduction"
+    },
+    {
+      "name": "Pocket Watch",
+      "rarity": 15,
+      "unlockLevel": 10,
+      "effect": "+5% duration for 10s",
+      "notes": "Duration boost"
+    },
+    {
+      "name": "Lucky Clover",
+      "rarity": 10,
+      "unlockLevel": 10,
+      "effect": "+5 luck permanently",
+      "notes": "One-time luck boost"
+    },
+    {
+      "name": "Crown of Dust",
+      "rarity": 10,
+      "unlockLevel": 10,
+      "effect": "+10% damage permanently",
+      "notes": "Damage boost"
+    },
+    {
+      "name": "Bambino",
+      "rarity": 5,
+      "unlockLevel": 15,
+      "effect": "Full HP heal",
+      "notes": "Expensive rare heal"
+    },
+    {
+      "name": "Sammys",
+      "rarity": 2,
+      "unlockLevel": 1,
+      "effect": "Auto-pickup XP gems",
+      "notes": "Can be chained for minutes of invulnerability"
+    }
+  ],
+  "gameDesign": {
+    "coreLoop": "Move → Auto-Attack (weapons fire automatically) → Collect XP gems from killed enemies → Level up (choose 1 of 3 random weapons or passives) → Evolve weapons by collecting matching passives → Survive until the timer ends (typically 30:00).",
+    "weaponBehaviors": [
+      "Primary weapons — Auto-fire in the faced direction (most common)",
+      "Aura weapons — Effect continuously around the player (Garlic, Laurel)",
+      "Bouncing/ricochet weapons — Projectiles ricochet off walls and enemies (Bone, Cherry Bomb)",
+      "Zone weapons — Place persistent damage zones on the ground (Santa Water, Fire Wand)",
+      "Orbit/circle weapons — Weapons circle around the player (King Bible, Peachone/Ebony Wings)",
+      "Retaliate weapons — Deal damage when the player is hit (Pako Battiliar, Victory Sword)"
+    ],
+    "passiveStats": [
+      "Might — +10% damage per level",
+      "Max Health — +10 HP per level",
+      "Armor — Reduces incoming damage",
+      "Speed — Movement velocity",
+      "Cooldown — Faster weapon cycling",
+      "Amount — More projectiles",
+      "Area — Larger weapon zones/damage radius",
+      "Duration — Longer weapon effect duration",
+      "Projectile Speed — Faster bullet travel",
+      "Luck — Better drop rates and proc chances",
+      "Greed — More gold from pickups and chests",
+      "Curse — More enemy spawns, but also higher enemy HP and speed",
+      "Recovery — Passive HP regeneration per second",
+      "Magnet — Pickup attraction radius",
+      "Growth — Increases XP gem value",
+      "Revival — Extra lives"
+    ],
+    "difficultyScaling": "Enemy HP and damage scale with time (affected by Curse stat). More enemies spawn as time progresses. Different enemy tiers appear at different minutes (e.g., basic enemies at 1-3 min, elites at 10+ min). Boss enemies appear at fixed minutes (11:00, 21:00) and in boss rush modes. Stage-specific difficulty: Mad Forest is tutorial-easy, Cappella Magna is the hardest base stage.",
+    "economyDesign": "XP gems are color-coded by value (green → red = low → high). Gold is earned from pickups and defeated enemies; used for shop purchases and rerolls in runs that have a shop. Duplicator pickup adds +1 projectile permanently to all weapons for the run. Reroll currency (gold) is scarce early, plentiful late. Pickups provide meaningful build decisions vs passive stat sticks."
+  }
+}

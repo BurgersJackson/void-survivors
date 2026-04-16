@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOID SURVIVORS — Map editor</title>
+<link rel="stylesheet" href="css/map-editor.css">
+</head>
+<body>
+<div id="layout">
+  <aside id="sidebar">
+    <h1>Map editor</h1>
+    <p style="font-size:12px;color:#888;line-height:1.4">Place premade shapes on a grid. The dashed circle is the spawn safety zone—keep it clear. The game loads <code style="color:#aaa">maps/map1.json</code>, <code style="color:#aaa">map2.json</code>, … in order (unlimited). Map name is stored in the file and shown in-game.</p>
+
+    <div>
+      <label for="map-name">Map name</label>
+      <input type="text" id="map-name" value="My arena" placeholder="Shown in-game as the level title">
+    </div>
+
+    <h2>Spawns &amp; visuals</h2>
+    <p style="font-size:11px;color:#888;line-height:1.35">Optional. <strong>visualSet</strong> picks one of six enemy color palettes (0–5). Grunt types and time-based waves are global (same on every map). <strong>Migrating flocks</strong> are VS-style crossing swarms.</p>
+    <div class="prop-grid">
+      <label for="map-visual-set">visualSet</label>
+      <input type="number" id="map-visual-set" class="prop-in" style="grid-column:span 2" min="0" max="5" value="0" title="Enemy palette 0–5">
+      <label for="map-migrant-waves">Migrating flock waves</label>
+      <label class="prop-in" style="grid-column:span 2;display:flex;align-items:center;gap:8px;cursor:pointer">
+        <input type="checkbox" id="map-migrant-waves" checked> Enabled
+      </label>
+    </div>
+
+    <h2>Tilemap</h2>
+    <p style="font-size:11px;color:#888;line-height:1.35">The game streams tiles around the player. <strong>Tiling</strong> sets how the authored map repeats: fixed bounds, horizontal strip, vertical strip, or all directions. World items spawn in-game at a <strong>random spot 5–10 tiles</strong> from the marker (using this map’s tile size), then clamped to the play area.</p>
+    <div class="prop-grid">
+      <label for="editor-mode-sel">Canvas mode</label>
+      <select id="editor-mode-sel" class="prop-in" style="grid-column:span 2">
+        <option value="tiles" selected>Tiles (paint)</option>
+        <option value="obstacles">Props (boxes)</option>
+        <option value="items">World items (loot)</option>
+      </select>
+      <label for="placement-kind-sel">Item type</label>
+      <select id="placement-kind-sel" class="prop-in" style="grid-column:span 2" title="Used in World items mode">
+        <option value="chest">Chest (gold pickup)</option>
+        <option value="gem">Large XP gem</option>
+      </select>
+      <label for="placement-spawn-sec">Spawn at game time (sec)</label>
+      <input type="number" id="placement-spawn-sec" class="prop-in" style="grid-column:span 2" min="0" max="999999" step="1" value="0" title="0 = when the level starts. Tiling repeats terrain only — each world item exists once at this X/Y.">
+      <label for="tiling-sel">Tiling in game</label>
+      <select id="tiling-sel" class="prop-in" style="grid-column:span 2">
+        <option value="none" selected>None (bounded map)</option>
+        <option value="horizontal">Horizontal only</option>
+        <option value="vertical">Vertical only</option>
+        <option value="omnidirectional">All directions</option>
+      </select>
+      <label for="tile-size-ed">Tile size (px)</label>
+      <input type="number" id="tile-size-ed" class="prop-in" style="grid-column:span 2" min="8" max="256" value="64" step="8">
+      <label>Map in tiles</label>
+      <input type="number" id="map-tiles-w" class="prop-in" min="4" max="512" value="32" title="Width">
+      <input type="number" id="map-tiles-h" class="prop-in" min="4" max="512" value="24" title="Height">
+      <label for="tile-brush">Brush</label>
+      <select id="tile-brush" class="prop-in" style="grid-column:span 2">
+        <option value="0">0 — floor (open)</option>
+        <option value="1" selected>1 — wall (solid)</option>
+        <option value="2">2 — building (solid)</option>
+        <option value="3">3 — pillar (solid)</option>
+      </select>
+    </div>
+
+    <h2>Tools</h2>
+    <div class="tool-row">
+      <button type="button" id="tool-place" class="on">Place</button>
+      <button type="button" id="tool-select">Select</button>
+    </div>
+
+    <div>
+      <label for="grid-sel">Snap grid</label>
+      <select id="grid-sel">
+        <option value="8">8 px</option>
+        <option value="16" selected>16 px</option>
+        <option value="32">32 px</option>
+      </select>
+    </div>
+
+    <h2>Premade shapes</h2>
+    <label for="premade-sel">Shape to place</label>
+    <select id="premade-sel" aria-label="Premade shape to place"></select>
+
+    <h2>Selection</h2>
+    <div class="prop-grid">
+      <label>X / Y</label>
+      <input type="number" class="prop-in" id="prop-x" step="1" value="0">
+      <input type="number" class="prop-in" id="prop-y" step="1" value="0">
+      <label>Width / height <span style="opacity:0.7;font-weight:400">(Enter to apply)</span></label>
+      <input type="number" class="prop-in" id="prop-w" step="1" min="4" value="80">
+      <input type="number" class="prop-in" id="prop-h" step="1" min="4" value="70">
+      <label for="prop-kind">Kind (render style)</label>
+      <select class="prop-in" id="prop-kind" style="grid-column:span 2">
+        <option value="building">building</option>
+        <option value="wall">wall</option>
+        <option value="pillar">pillar</option>
+        <option value="shard">shard</option>
+        <option value="bridge">bridge</option>
+        <option value="megablock">megablock</option>
+        <option value="barrier">barrier</option>
+      </select>
+    </div>
+    <button type="button" class="secondary" id="btn-dup" style="width:100%;margin-top:8px;padding:8px;border-radius:6px;border:1px solid #444;background:#1a1a24;color:#ccc;cursor:pointer">Duplicate selection</button>
+
+    <h2>Map size (world)</h2>
+    <p style="font-size:11px;color:#888;line-height:1.35">Width × height of the playable area in world pixels. The box is centered on the origin (0,0) where the player spawns. In-game spawns and movement stay inside the dotted outline.</p>
+    <div class="prop-grid">
+      <label>Width / height</label>
+      <input type="number" class="prop-in" id="map-size-w" step="64" min="200" value="7200" title="World units">
+      <input type="number" class="prop-in" id="map-size-h" step="64" min="200" value="7200" title="World units">
+    </div>
+
+    <h2>Import / export</h2>
+    <div class="actions">
+      <button type="button" id="btn-export">Download JSON</button>
+      <label for="map-slot" style="font-size:12px;color:#888;display:block;width:100%;margin:8px 0 4px">Map file number (saved as <code style="color:#aaa">maps/mapN.json</code>)</label>
+      <input type="number" id="map-slot" min="1" max="9999" value="1" step="1" style="width:100%;padding:8px;border-radius:6px;border:1px solid #444;background:#111820;color:#ddd;margin-bottom:8px">
+      <button type="button" id="btn-save-engine">Save map for game</button>
+      <button type="button" id="btn-save-game">Save to browser (backup)</button>
+      <button type="button" id="btn-clear-storage" class="danger secondary">Clear saved map</button>
+      <label style="cursor:pointer;border:1px dashed #444;padding:10px;border-radius:6px;text-align:center;color:#aaa">
+        Import JSON file
+        <input type="file" id="file-import" accept=".json,application/json" hidden>
+      </label>
+      <a href="index.html">← Back to game</a>
+      <a href="index.html?procedural=1">Play with procedural maps</a>
+    </div>
+    <p id="status" style="font-size:11px;color:#888;margin-top:8px"></p>
+  </aside>
+  <div id="canvas-wrap">
+    <canvas id="editor-canvas" tabindex="0" title="Click to focus — then Delete works"></canvas>
+    <div id="hint">
+      <strong>Tiles:</strong> Place + brush · <strong>Props:</strong> boxes, Delete removes · <strong>World items:</strong> click to place chest/gem (in-game + edge arrows) · <strong>Pan:</strong> middle / Alt+drag · <strong>Zoom:</strong> wheel.
+    </div>
+  </div>
+</div>
+<script type="module" src="js/map-editor/editor-app.js?v=19"></script>
+</body>
+</html>
